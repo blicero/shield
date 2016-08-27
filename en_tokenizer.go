@@ -1,7 +1,7 @@
 package shield
 
-import (
-	"sort"	
+import (	
+	"sort"
 	"regexp"
 	"strconv"
 	"github.com/reiver/go-porterstemmer"
@@ -20,8 +20,8 @@ func (t *enTokenizer) Tokenize(text string) (words map[string]int64) {
 	pvStr := ""
 	for _, w := range splitTokenRx.Split(text, -1) {
 		if len(w) > 2 {
-			if _, err := strconv.Atoi(w); err != nil {				
-				if sort.SearchStrings(stopwords, w) < 1 {
+			if _, err := strconv.Atoi(w); err != nil {								
+				if sort.SearchStrings(stopwords, w) < 1 {					
 					stem := porterstemmer.StemString(w)
 					if len(stem) > 2 {
 						words[stem]++

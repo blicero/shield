@@ -20,6 +20,13 @@ func New(t Tokenizer, s Store) Shield {
 	}
 }
 
+func (sh *shield) Destroy() {
+	err := sh.store.Close()
+	if err != nil {
+		log.Println(err)
+	}
+}
+
 func (sh *shield) Learn(class, text string) (err error) {
 	return sh.increment(class, text, 1)
 }

@@ -30,6 +30,9 @@ type Shield interface {
 
 	// Reset clears the storage
 	Reset() error
+
+	// Destroy
+	Destroy()
 }
 
 // Store interface

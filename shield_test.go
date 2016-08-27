@@ -48,6 +48,8 @@ func newShield() Shield {
 
 func TestLearn(t *testing.T) {
 	sh := newShield()
+	defer sh.Destroy()
+
 	testData := readDataSet("testdata.txt", "testlabels.txt", t)
 	trainData := readDataSet("traindata.txt", "trainlabels.txt", t)
 
@@ -89,6 +91,8 @@ func TestLearn(t *testing.T) {
 
 func TestDecrement(t *testing.T) {
 	sh := newShield()
+	defer sh.Destroy()
+	
 	sh.Learn("a", "hello")
 	sh.Learn("a", "sunshine")
 	sh.Learn("a", "tree")

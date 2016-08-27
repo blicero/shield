@@ -1,74 +1,78 @@
 package porterstemmers
 
 import (
+    "fmt"
+    "errors"
     "regexp"
-    "strings"
+    "strings"    
 )
+
+// For test: https://jsfiddle.net/tvjhuynh/
 
 // RussianPorterStemmer - для россии
 type RussianPorterStemmer struct {
 }
 
-func (s *RussianPorterStemmer) attemptReplacePatterns(token string, patterns []Pattern) string {
-    replacement := ""      
+func (s *RussianPorterStemmer) attemptReplacePatterns(token string, patterns []Pattern) (string, error) {    
     for i:=0; i<len(patterns);i++ {
         if patterns[i].Rx != nil {
             if patterns[i].Rx.MatchString(token) {
-                replacement = patterns[i].Rx.ReplaceAllString(token, patterns[i].To)
-                break
+                return patterns[i].Rx.ReplaceAllString(token, patterns[i].To), nil                
             }
         }
     }
-    return replacement
+    return "", errors.New("Not replace pattern")
 }
 
-func (s *RussianPorterStemmer) perfectiveGerund(token string) string {
+func (s *RussianPorterStemmer) perfectiveGerund(token string) (string, error) {
     return s.attemptReplacePatterns(token,
     []Pattern{Pattern{perfectiveRx1,""}, Pattern{perfectiveRx2,""}})
 }
 
-func (s *RussianPorterStemmer) adjective(token string) string {
+func (s *RussianPorterStemmer) adjective(token string) (string, error) {
     return s.attemptReplacePatterns(token,
     []Pattern{Pattern{adjectiveRx,""}})
 }
 
-func (s *RussianPorterStemmer) participle(token string) string {
+func (s *RussianPorterStemmer) participle(token string) (string, error) {
     return s.attemptReplacePatterns(token,
     []Pattern{Pattern{participleRx1,"$1"}, Pattern{participleRx2,""}})
 }
 
-func (s *RussianPorterStemmer) adjectival(token string) string {
-    result := s.adjective(token)
-    if len(result) > 0 {
-        pariticipleResult := s.participle(result);
-        if len(pariticipleResult) > 0 {
+func (s *RussianPorterStemmer) adjectival(token string) (string, error) {
+    result, err := s.adjective(token)
+    if err != nil {
+        pariticipleResult, err := s.participle(result);
+        if err == nil {
             result = pariticipleResult
+        } else {
+            return "", err
         }
     }
-    return result
+    return result, nil
 }
 
-func (s *RussianPorterStemmer) reflexive(token string) string {
+func (s *RussianPorterStemmer) reflexive(token string) (string, error) {
     return s.attemptReplacePatterns(token,
     []Pattern{Pattern{reflexiveRx,""}})
 }
 
-func (s *RussianPorterStemmer) verb(token string) string {
+func (s *RussianPorterStemmer) verb(token string) (string, error) {
     return s.attemptReplacePatterns(token,
     []Pattern{Pattern{verbRx1,"$1"}, Pattern{verbRx2,""}})
 }
 
-func (s *RussianPorterStemmer) noun(token string) string {
+func (s *RussianPorterStemmer) noun(token string) (string, error) {
     return s.attemptReplacePatterns(token,
     []Pattern{Pattern{nounRx,""}})
 }
 
-func (s *RussianPorterStemmer) superlative(token string) string {
+func (s *RussianPorterStemmer) superlative(token string) (string, error) {
     return s.attemptReplacePatterns(token,
     []Pattern{Pattern{superlativeRx,""}})
 }
 
-func (s *RussianPorterStemmer) derivational(token string) string {
+func (s *RussianPorterStemmer) derivational(token string) (string, error) {
     return s.attemptReplacePatterns(token,
     []Pattern{Pattern{derivationalRx,""}})
 }
@@ -77,24 +81,26 @@ func (s *RussianPorterStemmer) derivational(token string) string {
 func (s *RussianPorterStemmer) StemString(token string) string {
     token = strings.TrimSpace(strings.ToLower(token))
     token = eeRx.ReplaceAllString(token, "е")
-    rv := volwesRx.FindAllString(token,-1)
+    rv := volwesRx.FindStringSubmatch(token)
+    fmt.Println(rv);    
     if rv == nil || len(rv) < 3 {
         return token
     } 
     head := rv[1]
-    r2 := volwesRx.FindAllString(rv[2],0)
-    result := s.perfectiveGerund(rv[2])
-    if len(result) == 0 {
-        resultReflexive := s.reflexive(rv[2])
-        if len(resultReflexive) == 0 {
+    r2 := volwesRx.FindStringSubmatch(rv[2])
+    fmt.Println(r2);
+    result, err := s.perfectiveGerund(rv[2])
+    if err != nil {
+        resultReflexive, err := s.reflexive(rv[2])
+        if err != nil {
             resultReflexive = rv[2]
         }
-        result = s.adjectival(resultReflexive)
-        if len(result) == 0 {
-            result = s.verb(resultReflexive)
-            if len(result) == 0 {
-                result = s.noun(resultReflexive);
-                if len(result) == 0 {
+        result, err = s.adjectival(resultReflexive)
+        if err != nil {
+            result, err = s.verb(resultReflexive)
+            if err != nil {
+                result, err = s.noun(resultReflexive);
+                if err != nil {
                     result = resultReflexive
                 }
             }
@@ -103,15 +109,18 @@ func (s *RussianPorterStemmer) StemString(token string) string {
     result = andRx.ReplaceAllString(result, "")
     derivationalResult := result
     if r2 != nil && len(r2) > 2 && len(r2[2]) > 0 {
-        derivationalResult = s.derivational(r2[2]);
-        if len(derivationalResult) == 0 {
-            derivationalResult = s.derivational(result)
+        derivationalResult, err = s.derivational(r2[2]);
+        if err != nil {
+            derivationalResult, err = s.derivational(result)
+            if err != nil {
+                derivationalResult = result
+            }
         } else {
             derivationalResult = result
         }
     }
-    superlativeResult := s.superlative(derivationalResult)
-    if len(superlativeResult) == 0 {
+    superlativeResult, err := s.superlative(derivationalResult)
+    if err != nil {
         superlativeResult = derivationalResult
     }
     superlativeResult = wnRx.ReplaceAllString(superlativeResult, "$1")

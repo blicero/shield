@@ -2,12 +2,12 @@ package shield
 
 import (
 	"fmt"
-	"testing"
+	"testing"	
 )
 
 func TestRusTokenize(t *testing.T) {
 	tokenizer := NewRussianTokenizer()
-	text := "привет    ктото идет впереди кто    же это может быть  \t  жеесть! привет"
+	text := "красивая красивее"
 	m := tokenizer.Tokenize(text)
-	x := fmt.Sprintf("%v", m)	
+	fmt.Println(fmt.Sprintf("%v", m))
 }
