@@ -7,5 +7,5 @@ import (
 
 func main() {
     rusPS := porterstemmers.RussianPorterStemmer{}
-	fmt.Println(rusPS.StemString("красивее"))
+	fmt.Println(rusPS.StemString("приветули"))
 }

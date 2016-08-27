@@ -1,6 +1,7 @@
 package porterstemmers
 
-import (    
+import (     
+    "sort"
     "errors"
     "regexp"
     "strings"    
@@ -84,10 +85,16 @@ func (s *RussianPorterStemmer) StemString(token string) string {
     if rv == nil || len(rv) < 3 {
         return token
     } 
-    head := rv[1]
-    r2 := volwesRx.FindStringSubmatch(rv[2])    
+    head := rv[1]    
+    r2 := volwesRx.FindStringSubmatch(rv[2])
     result, err := s.perfectiveGerund(rv[2])
-    if err != nil {
+    // Проверка исключений
+    if len(r2) < 1 {
+        if sort.SearchStrings(specificHeads, head) > 0 {
+            return token
+        }
+    }
+    if err != nil {        
         resultReflexive, err := s.reflexive(rv[2])
         if err != nil {
             resultReflexive = rv[2]
@@ -143,4 +150,5 @@ var (
     andRx          = regexp.MustCompile("и$")
     wnRx           = regexp.MustCompile("(н)н")
     mzRx           = regexp.MustCompile("ь$")
+    specificHeads  = []string{"","тво","ху"}
 )
