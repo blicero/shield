@@ -241,3 +241,14 @@ func (rs *RedisStore) Reset() (err error) {
 	_, err = c.Do("EXEC")
 	return
 }
+
+func (rs *RedisStore) Close() error {
+	if rs.redis != nil {
+		err := rs.redis.Close()
+		if err != nil {
+			return err
+		}
+		rs.redis = nil
+	}
+	return nil
+}

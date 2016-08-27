@@ -40,4 +40,5 @@ type Store interface {
 	IncrementClassWordCounts(m map[string]map[string]int64) error
 	TotalClassWordCounts() (map[string]int64, error)
 	Reset() error
+	Close() error
 }

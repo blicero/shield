@@ -3,8 +3,8 @@ package shield
 import (
 	"fmt"
 	"io/ioutil"
-	"log"
-	"os"
+	//"log"
+	//"os"
 	"strings"
 	"testing"
 )
@@ -34,9 +34,8 @@ func readDataSet(dataFile, labelFile string, t *testing.T) []string {
 	return a
 }
 
-func newShield() Shield {
-	logger := log.New(os.Stderr, "", log.LstdFlags)
-	store := NewRedisStore("127.0.0.1:6379", "", logger, "redis")
+func newShield() Shield {	
+	store := NewLevelDBStore("./db")
 	tokenizer := NewEnglishTokenizer()
 
 	sh := New(tokenizer, store)
@@ -85,7 +84,7 @@ func TestLearn(t *testing.T) {
 	hitRatio := (float64(hit) / float64(hit+miss))
 	if hitRatio < minHitRatio {
 		t.Fatalf("%d hits, %d misses (expected ratio %.2f, is %.2f)", hit, miss, minHitRatio, hitRatio)
-	}
+	}	
 }
 
 func TestDecrement(t *testing.T) {
