@@ -6,6 +6,7 @@ import (
 	"strconv"
 )
 
+// RedisStore - store
 type RedisStore struct {
 	redis      redis.Conn
 	addr       string
@@ -18,6 +19,7 @@ type RedisStore struct {
 	prefix     string
 }
 
+// NewRedisStore - new redis store
 func NewRedisStore(addr, password, db string, logger *log.Logger, prefix string) Store {
 	return &RedisStore{
 		addr:       addr,

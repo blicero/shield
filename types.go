@@ -1,14 +1,17 @@
 package shield
 
+// Tokenizer interface
 type Tokenizer interface {
 	Tokenize(text string) (words map[string]int64)
 }
 
+// Set struct
 type Set struct {
 	Class string
 	Text  string
 }
 
+// Shield interface
 type Shield interface {
 	// Learn learns a single document
 	Learn(class, text string) (err error)
@@ -29,6 +32,7 @@ type Shield interface {
 	Reset() error
 }
 
+// Store interface
 type Store interface {
 	Classes() ([]string, error)
 	AddClass(class string) error

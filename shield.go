@@ -12,6 +12,7 @@ type shield struct {
 	store     Store
 }
 
+// New - new Shield
 func New(t Tokenizer, s Store) Shield {
 	return &shield{
 		tokenizer: t,
@@ -48,7 +49,7 @@ func (sh *shield) bulkIncrement(sets []Set, sign int64) (err error) {
 	m := make(map[string]map[string]int64)
 	for _, set := range sets {
 		tokens := sh.tokenizer.Tokenize(set.Text)
-		for k, _ := range tokens {
+		for k := range tokens {
 			tokens[k] *= sign
 		}
 		if w, ok := m[set.Class]; ok {
@@ -78,23 +79,24 @@ func (sh *shield) bulkIncrement(sets []Set, sign int64) (err error) {
 
 func getKeys(m map[string]int64) []string {
 	keys := make([]string, 0, len(m))
-	for k, _ := range m {
+	for k := range m {
 		keys = append(keys, k)
 	}
 	return keys
 }
 
-func (s *shield) Score(text string) (scores map[string]float64, err error) {
+// Score (shield) - learn
+func (sh *shield) Score(text string) (scores map[string]float64, err error) {
 
 	// Tokenize text
-	wordFreqs := s.tokenizer.Tokenize(text)
+	wordFreqs := sh.tokenizer.Tokenize(text)
 	if len(wordFreqs) < 2 {
 		return
 	}
 	words := getKeys(wordFreqs)
 
 	// Get total class word counts
-	totals, err := s.store.TotalClassWordCounts()
+	totals, err := sh.store.TotalClassWordCounts()
 	if err != nil {
 		return
 	}
@@ -103,7 +105,7 @@ func (s *shield) Score(text string) (scores map[string]float64, err error) {
 	// Get word frequencies for each class
 	classFreqs := make(map[string]map[string]int64)
 	for _, class := range classes {
-		freqs, err2 := s.store.ClassWordCounts(class, words)
+		freqs, err2 := sh.store.ClassWordCounts(class, words)
 		if err2 != nil {
 			err = err2
 			return
@@ -190,20 +192,22 @@ func (s *shield) Score(text string) (scores map[string]float64, err error) {
 	return
 }
 
-func (s *shield) Classify(text string) (class string, err error) {
-	scores, err := s.Score(text)
+func (sh *shield) ClassifyEx(text string) (class string, score float64, err error) {
+	scores, err := sh.Score(text)
 	if err != nil {
-		//log.Println(err)
+		log.Println(err)
 		return
-	}
-
-	// Select class with highes prob
-	var score float64
+	}		
 	for k, v := range scores {
 		if v > score {
 			class, score = k, v
 		}
 	}
+	return
+}
+
+func (sh *shield) Classify(text string) (class string, err error) {
+	class, _, err = sh.ClassifyEx(text)
 	return
 }
 
