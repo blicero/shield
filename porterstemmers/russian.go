@@ -150,5 +150,6 @@ var (
     andRx          = regexp.MustCompile("и$")
     wnRx           = regexp.MustCompile("(н)н")
     mzRx           = regexp.MustCompile("ь$")
+    // Исключительно для анализа некоторых матерных слов
     specificHeads  = []string{"","тво","ху"}
 )
