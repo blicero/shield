@@ -1,6 +1,6 @@
 package shield
 
-import (
+import (	
 	"log"
 	"math"
 )
@@ -8,8 +8,9 @@ import (
 const defaultProb float64 = 1e-11
 
 type shield struct {
-	tokenizer Tokenizer
-	store     Store
+	tokenizer 	    Tokenizer
+	store     	    Store
+	minCounterWord  int64	
 }
 
 // New - new Shield
@@ -17,6 +18,7 @@ func New(t Tokenizer, s Store) Shield {
 	return &shield{
 		tokenizer: t,
 		store:     s,
+		minCounterWord: 1,		
 	}
 }
 
@@ -68,10 +70,9 @@ func (sh *shield) bulkIncrement(sets []Set, sign int64) (err error) {
 		}
 	}
 	for class, words := range m {
-
-		// Sitnan patch: Do not consider words if count is less than 2
+		// Sitnan patch: Do not consider words if count is less than sh.minCounterWord
 		for word, d := range words {
-			if d < 2 {
+			if d < sh.minCounterWord {
 				delete(m[class], word)
 			}
 		}
@@ -80,7 +81,7 @@ func (sh *shield) bulkIncrement(sets []Set, sign int64) (err error) {
 			return
 		}
 	}
-	log.Println("Total word with freq sent to Redis is: ", len(m))
+	//log.Println("Total word with freq sent to Redis is: ", len(m))
 	return sh.store.IncrementClassWordCounts(m)
 }
 
@@ -119,29 +120,6 @@ func (sh *shield) Score(text string) (scores map[string]float64, err error) {
 		}
 		classFreqs[class] = freqs
 	}
-	/*
-		// Calculate log scores for each class
-		logScores := make(map[string]float64, len(classes))
-
-		for _, class := range classes {
-			freqs := classFreqs[class]
-			total := totals[class]
-
-			// Because this classifier is not biased, we don't use prior probabilities
-			score := float64(0)
-			for _, word := range words {
-				// Compute the probability that this word belongs to that class
-				wordProb := float64(freqs[word]) / float64(total)
-				if wordProb == 0 {
-					wordProb = defaultProb
-				}
-				score += math.Log(wordProb)
-			}
-			logScores[class] = score
-		}
-	*/
-	/*****************************************************/
-	//** SITNAN modification to handle zero prob **/
 
 	// Calculate log scores for each class
 	logScores := make(map[string]float64, len(classes))
@@ -171,50 +149,36 @@ func (sh *shield) Score(text string) (scores map[string]float64, err error) {
 
 	scores = make(map[string]float64, len(classes))
 	if !hasData {
-		scores["unknown"] = 1
+		scores["unknown"] = 1.0
 		return
 	}
-	/*****************************************************/
 
-	// Normalize the scores
-	var min = math.MaxFloat64
+	// Normalize the scores	
+	scores = make(map[string]float64, len(classes))	
 	var max = -math.MaxFloat64
 	for _, score := range logScores {
 		if score > max {
 			max = score
 		}
-		if score < min {
-			min = score
-		}
 	}
-	r := max - min
-	scores = make(map[string]float64, len(classes))
 	for class, score := range logScores {
-		if r == 0 {
-			scores[class] = 1
-		} else {
-			scores[class] = (score - min) / r
-		}
-	}
+		scores[class] = max/score
+	}	
 	return
 }
 
-func (sh *shield) ClassifyEx(text string) (class string, score float64, err error) {
-	scores, err := sh.Score(text)
+func (sh *shield) Classify(text string) (class string, err error) {
+	scores, err := sh.Score(text)	
 	if err != nil {
 		log.Println(err)
 		return
-	}		
+	}
+	var score float64
 	for k, v := range scores {
 		if v > score {
 			class, score = k, v
 		}
 	}
-	return
-}
-
-func (sh *shield) Classify(text string) (class string, err error) {
-	class, _, err = sh.ClassifyEx(text)
 	return
 }
 

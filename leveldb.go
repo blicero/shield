@@ -93,12 +93,12 @@ func (ls *LevelDBStore) IncrementClassWordCounts(m map[string]map[string]int64) 
 	type tuple struct {
 		word string
 		d    int64
-	}	
+	}    
     for class, words := range m {
 		for word, d := range words {
             key := "cl-"+class+"-"+word           			
             appendIntValue(db, key, d)        
-            appendIntValue(db, "sub-"+class, d)            
+            appendIntValue(db, "sum-"+class, d)            
         }
     }    
     return
@@ -132,12 +132,12 @@ func (ls *LevelDBStore) Reset() (err error) {
 	if err != nil {
 		return
 	}
-    batch := new(leveldb.Batch)            
+    //batch := new(leveldb.Batch)            
 	iter := db.NewIterator(nil, nil)
 	for iter.Next() {
-        batch.Delete(iter.Key())
+        db.Delete(iter.Key(), nil)
     }
-    db.Write(batch, nil)
+    //db.Write(batch, nil)
 	return
 }
 
@@ -154,24 +154,21 @@ func (ls *LevelDBStore) Close() error {
 }
 
 func appendIntValue(db *leveldb.DB, key string, d int64) {
-    if db != nil {
+    if db != nil {        
         val, e := db.Get([]byte(key), nil)
-        if e != nil {
-            if d < 0 {
-                d = d * -1
+        if e != nil {     
+            if d > 0 {           
+                db.Put([]byte(key), []byte(strconv.FormatInt(d,10)), nil)
             }
-            db.Put([]byte(key), []byte(strconv.FormatInt(d,10)), nil)
         } else {
             v, e := strconv.ParseInt(string(val),10,64)
             if e != nil {
-                if d < 0 {
-                    d = d * -1
+                if d > 0 {
+                    db.Put([]byte(key), []byte(strconv.FormatInt(d,10)), nil)
                 }
-                db.Put([]byte(key), []byte(strconv.FormatInt(d,10)), nil)
-            } else {
-                d = v+d
-                if d < 0 {
-                    d = d * -1
+            } else {                
+                if (v+d) < 0 {
+                    d = v * -1
                 }
                 db.Put([]byte(key), []byte(strconv.FormatInt(d,10)), nil)
             }

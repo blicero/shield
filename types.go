@@ -26,7 +26,7 @@ type Shield interface {
 	Score(text string) (scores map[string]float64, err error)
 
 	// Classify returns the class with the highest score
-	Classify(text string) (c string, err error)
+	Classify(text string) (c string, err error)	
 
 	// Reset clears the storage
 	Reset() error

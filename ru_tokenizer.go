@@ -1,7 +1,6 @@
 package shield
 
-import (
-    "fmt"
+import (    
     "regexp"
     "strings"
 	"strconv"
@@ -23,8 +22,7 @@ func (t *ruTokenizer) Tokenize(text string) (words map[string]int64) {
     for _, w := range strings.Split(replaceWSpacesRx.ReplaceAllString(text, " ")," ") {
         if len(w) > 2 {
             if _, err := strconv.Atoi(w); err != nil {
-                stem := rusPS.StemString(w)
-                fmt.Println(w, " - ", stem)
+                stem := rusPS.StemString(w)                
                 if len(stem) > 2 {
                     words[stem]++                    
                 }

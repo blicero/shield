@@ -1,7 +1,6 @@
 package porterstemmers
 
-import (
-    "fmt"
+import (    
     "errors"
     "regexp"
     "strings"    
@@ -82,13 +81,11 @@ func (s *RussianPorterStemmer) StemString(token string) string {
     token = strings.TrimSpace(strings.ToLower(token))
     token = eeRx.ReplaceAllString(token, "е")
     rv := volwesRx.FindStringSubmatch(token)
-    fmt.Println(rv);    
     if rv == nil || len(rv) < 3 {
         return token
     } 
     head := rv[1]
-    r2 := volwesRx.FindStringSubmatch(rv[2])
-    fmt.Println(r2);
+    r2 := volwesRx.FindStringSubmatch(rv[2])    
     result, err := s.perfectiveGerund(rv[2])
     if err != nil {
         resultReflexive, err := s.reflexive(rv[2])
