@@ -1,0 +1,1637 @@
+=============== Aug 28, 2016 (YEKT) ===============
+04:24:02.408868 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:24:02.409376 db@open opening
+04:24:02.409968 version@stat F·[] S·0B[] Sc·[]
+04:24:02.410284 db@janitor F·2 G·0
+04:24:02.410311 db@open done T·921.298µs
+04:24:02.410404 db@close closing
+04:24:02.410533 db@close done T·136.275µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:24:02.410687 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:24:02.410849 version@stat F·[] S·0B[] Sc·[]
+04:24:02.410857 db@open opening
+04:24:02.410895 journal@recovery F·1
+04:24:02.411117 journal@recovery recovering @1
+04:24:02.411618 memdb@flush created L0@2 N·1 S·127B "tes..lue,v1":"tes..lue,v1"
+04:24:02.413699 version@stat F·[1] S·127B[127B] Sc·[0.25]
+04:24:02.414167 db@janitor F·3 G·0
+04:24:02.414182 db@open done T·3.320678ms
+04:24:02.414265 db@close closing
+04:24:02.414359 db@close done T·90.902µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:24:02.414679 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:24:02.414823 version@stat F·[1] S·127B[127B] Sc·[0.25]
+04:24:02.414832 db@open opening
+04:24:02.414870 journal@recovery F·1
+04:24:02.416717 journal@recovery recovering @3
+04:24:02.417536 version@stat F·[1] S·127B[127B] Sc·[0.25]
+04:24:02.418049 db@janitor F·3 G·0
+04:24:02.418063 db@open done T·3.227095ms
+04:24:02.470685 db@close closing
+04:24:02.470864 db@close done T·177.492µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:24:02.470994 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:24:02.471134 version@stat F·[1] S·127B[127B] Sc·[0.25]
+04:24:02.471143 db@open opening
+04:24:02.471184 journal@recovery F·1
+04:24:02.471453 journal@recovery recovering @5
+04:24:02.474647 memdb@flush created L0@7 N·1709 S·14KiB "cl-..ity,v1606":"tes..lue,d3"
+04:24:02.475091 version@stat F·[2] S·14KiB[14KiB] Sc·[0.50]
+04:24:02.475631 db@janitor F·4 G·0
+04:24:02.475646 db@open done T·4.49918ms
+04:24:02.480392 db@close closing
+04:24:02.480542 db@close done T·148.354µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:26:10.622589 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:26:10.622856 version@stat F·[2] S·14KiB[14KiB] Sc·[0.50]
+04:26:10.622878 db@open opening
+04:26:10.622924 journal@recovery F·1
+04:26:10.623343 journal@recovery recovering @8
+04:26:10.625292 memdb@flush created L0@10 N·874 S·9KiB "cl-..ity,d1713":"sum-b,v2584"
+04:26:10.625620 version@stat F·[3] S·24KiB[24KiB] Sc·[0.75]
+04:26:10.626212 db@janitor F·5 G·0
+04:26:10.626243 db@open done T·3.349107ms
+04:26:10.626308 db@close closing
+04:26:10.626474 db@close done T·164.285µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:26:10.626646 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:26:10.626812 version@stat F·[3] S·24KiB[24KiB] Sc·[0.75]
+04:26:10.626821 db@open opening
+04:26:10.626861 journal@recovery F·1
+04:26:10.628749 journal@recovery recovering @11
+04:26:10.629187 memdb@flush created L0@13 N·1 S·128B "tes..lue,v2588":"tes..lue,v2588"
+04:26:10.631197 version@stat F·[4] S·24KiB[24KiB] Sc·[1.00]
+04:26:10.631698 db@janitor F·6 G·0
+04:26:10.631719 db@open done T·4.892882ms
+04:26:10.631767 table@compaction L0·4 -> L1·0 S·24KiB Q·2589
+04:26:10.631938 db@close closing
+04:26:10.632606 db@close done T·666.934µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:26:10.632995 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:26:10.633145 version@stat F·[4] S·24KiB[24KiB] Sc·[1.00]
+04:26:10.633154 db@open opening
+04:26:10.633213 journal@recovery F·1
+04:26:10.633908 journal@recovery recovering @14
+04:26:10.634649 version@stat F·[4] S·24KiB[24KiB] Sc·[1.00]
+04:26:10.635122 db@janitor F·6 G·0
+04:26:10.635136 db@open done T·1.970828ms
+04:26:10.635196 table@compaction L0·4 -> L1·0 S·24KiB Q·2589
+04:26:10.636328 table@build created L1@18 N·10 S·245B "cl-..llo,v2571":"tes..lue,v2588"
+04:26:10.636367 version@stat F·[0 1] S·245B[0B 245B] Sc·[0.00 0.00]
+04:26:10.636551 table@compaction committed F-3 S-24KiB Ke·0 D·2575 T·1.321527ms
+04:26:10.693014 db@close closing
+04:26:10.693241 db@close done T·215.733µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:26:10.693406 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:26:10.698115 version@stat F·[0 1] S·245B[0B 245B] Sc·[0.00 0.00]
+04:26:10.698130 db@open opening
+04:26:10.698212 journal@recovery F·1
+04:26:10.698837 journal@recovery recovering @16
+04:26:10.703004 memdb@flush created L0@19 N·1718 S·14KiB "cl-..ity,v2708":"tes..lue,d2599"
+04:26:10.703597 version@stat F·[1 1] S·14KiB[14KiB 245B] Sc·[0.25 0.00]
+04:26:10.704090 db@janitor F·8 G·4
+04:26:10.704101 db@janitor removing table-2
+04:26:10.704152 db@janitor removing table-7
+04:26:10.704195 db@janitor removing table-10
+04:26:10.704239 db@janitor removing table-13
+04:26:10.704287 db@open done T·6.151545ms
+04:26:10.709051 db@close closing
+04:26:10.709207 db@close done T·153.75µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:27:01.001446 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:27:01.001724 version@stat F·[1 1] S·14KiB[14KiB 245B] Sc·[0.25 0.00]
+04:27:01.001736 db@open opening
+04:27:01.001793 journal@recovery F·1
+04:27:01.002303 journal@recovery recovering @20
+04:27:01.004156 memdb@flush created L0@22 N·874 S·9KiB "cl-..ity,d4309":"sum-b,v5180"
+04:27:01.004650 version@stat F·[2 1] S·24KiB[24KiB 245B] Sc·[0.50 0.00]
+04:27:01.005110 db@janitor F·5 G·0
+04:27:01.005134 db@open done T·3.386884ms
+04:27:01.005176 db@close closing
+04:27:01.005347 db@close done T·167.662µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:27:01.005457 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:27:01.005606 version@stat F·[2 1] S·24KiB[24KiB 245B] Sc·[0.50 0.00]
+04:27:01.005616 db@open opening
+04:27:01.005660 journal@recovery F·1
+04:27:01.007587 journal@recovery recovering @23
+04:27:01.008005 memdb@flush created L0@25 N·1 S·128B "tes..lue,v5184":"tes..lue,v5184"
+04:27:01.009850 version@stat F·[3 1] S·24KiB[24KiB 245B] Sc·[0.75 0.00]
+04:27:01.010361 db@janitor F·6 G·0
+04:27:01.010380 db@open done T·4.759194ms
+04:27:01.010515 db@close closing
+04:27:01.010631 db@close done T·111.74µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:27:01.011106 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:27:01.011273 version@stat F·[3 1] S·24KiB[24KiB 245B] Sc·[0.75 0.00]
+04:27:01.011282 db@open opening
+04:27:01.011327 journal@recovery F·1
+04:27:01.011577 journal@recovery recovering @26
+04:27:01.012473 version@stat F·[3 1] S·24KiB[24KiB 245B] Sc·[0.75 0.00]
+04:27:01.013036 db@janitor F·6 G·0
+04:27:01.013049 db@open done T·1.763366ms
+04:27:01.025839 table@compaction L0·3 -> L1·1 S·24KiB Q·5396
+04:27:01.026831 table@build created L1@30 N·10 S·247B "cl-..llo,v5167":"tes..lue,v5184"
+04:27:01.026870 version@stat F·[0 1] S·247B[0B 247B] Sc·[0.00 0.00]
+04:27:01.027059 table@compaction committed F-3 S-24KiB Ke·0 D·2593 T·1.175674ms
+04:27:01.069926 db@close closing
+04:27:01.070151 db@close done T·213.827µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:27:01.070328 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:27:01.070501 version@stat F·[0 1] S·247B[0B 247B] Sc·[0.00 0.00]
+04:27:01.070517 db@open opening
+04:27:01.070564 journal@recovery F·1
+04:27:01.072452 journal@recovery recovering @28
+04:27:01.075407 memdb@flush created L0@31 N·1718 S·14KiB "cl-..ity,v6122":"tes..lue,d5195"
+04:27:01.075880 version@stat F·[1 1] S·14KiB[14KiB 247B] Sc·[0.25 0.00]
+04:27:01.076312 db@janitor F·8 G·4
+04:27:01.076321 db@janitor removing table-18
+04:27:01.076363 db@janitor removing table-19
+04:27:01.076398 db@janitor removing table-22
+04:27:01.076432 db@janitor removing table-25
+04:27:01.076484 db@open done T·5.962817ms
+04:27:01.080790 db@close closing
+04:27:01.080906 db@close done T·114.092µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:27:11.108597 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:27:11.108868 version@stat F·[1 1] S·14KiB[14KiB 247B] Sc·[0.25 0.00]
+04:27:11.108890 db@open opening
+04:27:11.108936 journal@recovery F·1
+04:27:11.109396 journal@recovery recovering @32
+04:27:11.111343 memdb@flush created L0@34 N·874 S·9KiB "cl-..ity,d6905":"sum-b,v7776"
+04:27:11.111870 version@stat F·[2 1] S·24KiB[24KiB 247B] Sc·[0.50 0.00]
+04:27:11.112323 db@janitor F·5 G·0
+04:27:11.112345 db@open done T·3.449017ms
+04:27:11.112407 db@close closing
+04:27:11.112526 db@close done T·116.066µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:27:11.112641 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:27:11.112790 version@stat F·[2 1] S·24KiB[24KiB 247B] Sc·[0.50 0.00]
+04:27:11.112800 db@open opening
+04:27:11.112844 journal@recovery F·1
+04:27:11.114811 journal@recovery recovering @35
+04:27:11.115204 memdb@flush created L0@37 N·1 S·128B "tes..lue,v7780":"tes..lue,v7780"
+04:27:11.117221 version@stat F·[3 1] S·24KiB[24KiB 247B] Sc·[0.75 0.00]
+04:27:11.117699 db@janitor F·6 G·0
+04:27:11.117714 db@open done T·4.909527ms
+04:27:11.117829 db@close closing
+04:27:11.117938 db@close done T·103.552µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:27:11.118319 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:27:11.118482 version@stat F·[3 1] S·24KiB[24KiB 247B] Sc·[0.75 0.00]
+04:27:11.118492 db@open opening
+04:27:11.118538 journal@recovery F·1
+04:27:11.119380 journal@recovery recovering @38
+04:27:11.120187 version@stat F·[3 1] S·24KiB[24KiB 247B] Sc·[0.75 0.00]
+04:27:11.120592 db@janitor F·6 G·0
+04:27:11.120605 db@open done T·2.108737ms
+04:27:11.133796 table@compaction L0·3 -> L1·1 S·24KiB Q·7993
+04:27:11.134809 table@build created L1@42 N·10 S·243B "cl-..llo,v7763":"tes..lue,v7780"
+04:27:11.134857 version@stat F·[0 1] S·243B[0B 243B] Sc·[0.00 0.00]
+04:27:11.135045 table@compaction committed F-3 S-24KiB Ke·0 D·2593 T·1.214304ms
+04:27:11.180725 db@close closing
+04:27:11.180893 db@close done T·166.043µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:27:11.181028 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:27:11.181197 version@stat F·[0 1] S·243B[0B 243B] Sc·[0.00 0.00]
+04:27:11.181206 db@open opening
+04:27:11.181261 journal@recovery F·1
+04:27:11.181607 journal@recovery recovering @40
+04:27:11.184522 memdb@flush created L0@43 N·1718 S·14KiB "cl-..ity,v8556":"tes..lue,d7791"
+04:27:11.184993 version@stat F·[1 1] S·14KiB[14KiB 243B] Sc·[0.25 0.00]
+04:27:11.185435 db@janitor F·8 G·4
+04:27:11.185444 db@janitor removing table-30
+04:27:11.185485 db@janitor removing table-31
+04:27:11.185524 db@janitor removing table-34
+04:27:11.185557 db@janitor removing table-37
+04:27:11.185608 db@open done T·4.387076ms
+04:27:11.189912 db@close closing
+04:27:11.190039 db@close done T·125.446µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:27:18.191238 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:27:18.191507 version@stat F·[1 1] S·14KiB[14KiB 243B] Sc·[0.25 0.00]
+04:27:18.191520 db@open opening
+04:27:18.191598 journal@recovery F·1
+04:27:18.192218 journal@recovery recovering @44
+04:27:18.194116 memdb@flush created L0@46 N·874 S·9KiB "cl-..ity,d9501":"sum-b,v10372"
+04:27:18.194444 version@stat F·[2 1] S·24KiB[24KiB 243B] Sc·[0.50 0.00]
+04:27:18.194985 db@janitor F·5 G·0
+04:27:18.195013 db@open done T·3.47725ms
+04:27:18.195068 db@close closing
+04:27:18.195261 db@close done T·191.474µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:27:18.195441 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:27:18.195601 version@stat F·[2 1] S·24KiB[24KiB 243B] Sc·[0.50 0.00]
+04:27:18.195610 db@open opening
+04:27:18.195662 journal@recovery F·1
+04:27:18.197466 journal@recovery recovering @47
+04:27:18.198009 memdb@flush created L0@49 N·1 S·128B "tes..lue,v10376":"tes..lue,v10376"
+04:27:18.199931 version@stat F·[3 1] S·24KiB[24KiB 243B] Sc·[0.75 0.00]
+04:27:18.200440 db@janitor F·6 G·0
+04:27:18.200456 db@open done T·4.842226ms
+04:27:18.200585 db@close closing
+04:27:18.200690 db@close done T·100.24µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:27:18.201145 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:27:18.201322 version@stat F·[3 1] S·24KiB[24KiB 243B] Sc·[0.75 0.00]
+04:27:18.201332 db@open opening
+04:27:18.201379 journal@recovery F·1
+04:27:18.203307 journal@recovery recovering @50
+04:27:18.204085 version@stat F·[3 1] S·24KiB[24KiB 243B] Sc·[0.75 0.00]
+04:27:18.204525 db@janitor F·6 G·0
+04:27:18.204549 db@open done T·3.202414ms
+04:27:18.217255 table@compaction L0·3 -> L1·1 S·24KiB Q·10589
+04:27:18.218244 table@build created L1@54 N·10 S·243B "cl-..llo,v10359":"tes..lue,v10376"
+04:27:18.218284 version@stat F·[0 1] S·243B[0B 243B] Sc·[0.00 0.00]
+04:27:18.218477 table@compaction committed F-3 S-24KiB Ke·0 D·2593 T·1.1865ms
+04:27:18.263989 db@close closing
+04:27:18.264153 db@close done T·163.66µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:27:18.264270 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:27:18.264415 version@stat F·[0 1] S·243B[0B 243B] Sc·[0.00 0.00]
+04:27:18.264424 db@open opening
+04:27:18.264486 journal@recovery F·1
+04:27:18.265430 journal@recovery recovering @52
+04:27:18.268351 memdb@flush created L0@55 N·1718 S·14KiB "cl-..ity,v11400":"tes..lue,d10387"
+04:27:18.268821 version@stat F·[1 1] S·14KiB[14KiB 243B] Sc·[0.25 0.00]
+04:27:18.269245 db@janitor F·8 G·4
+04:27:18.269254 db@janitor removing table-42
+04:27:18.269294 db@janitor removing table-43
+04:27:18.269330 db@janitor removing table-46
+04:27:18.269363 db@janitor removing table-49
+04:27:18.269417 db@open done T·4.978308ms
+04:27:18.273676 db@close closing
+04:27:18.273805 db@close done T·127.416µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:31:52.475605 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:31:52.475934 version@stat F·[1 1] S·14KiB[14KiB 243B] Sc·[0.25 0.00]
+04:31:52.475948 db@open opening
+04:31:52.475999 journal@recovery F·1
+04:31:52.476339 journal@recovery recovering @56
+04:31:52.478791 memdb@flush created L0@58 N·874 S·9KiB "cl-..ity,d12097":"sum-b,v12968"
+04:31:52.479277 version@stat F·[2 1] S·24KiB[24KiB 243B] Sc·[0.50 0.00]
+04:31:52.479725 db@janitor F·5 G·0
+04:31:52.479747 db@open done T·3.792482ms
+04:31:52.480914 db@close closing
+04:31:52.481078 db@close done T·161.394µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:33:13.387368 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:33:13.387697 version@stat F·[2 1] S·24KiB[24KiB 243B] Sc·[0.50 0.00]
+04:33:13.387711 db@open opening
+04:33:13.387761 journal@recovery F·1
+04:33:13.388349 journal@recovery recovering @59
+04:33:13.389251 memdb@flush created L0@61 N·26 S·343B "cl-..llo,v12982":"sum-b,d12980"
+04:33:13.389621 version@stat F·[3 1] S·24KiB[24KiB 243B] Sc·[0.75 0.00]
+04:33:13.390155 db@janitor F·6 G·0
+04:33:13.390185 db@open done T·2.467364ms
+04:33:13.391393 db@close closing
+04:33:13.391550 db@close done T·140.806µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:33:36.045423 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:33:36.045732 version@stat F·[3 1] S·24KiB[24KiB 243B] Sc·[0.75 0.00]
+04:33:36.045747 db@open opening
+04:33:36.045800 journal@recovery F·1
+04:33:36.046097 journal@recovery recovering @62
+04:33:36.047246 memdb@flush created L0@64 N·26 S·341B "cl-..llo,v13009":"sum-b,d13007"
+04:33:36.047637 version@stat F·[4 1] S·25KiB[25KiB 243B] Sc·[1.00 0.00]
+04:33:36.048111 db@janitor F·7 G·0
+04:33:36.048176 db@open done T·2.420233ms
+04:33:36.048279 table@compaction L0·4 -> L1·1 S·25KiB Q·13025
+04:33:36.049958 table@build created L1@67 N·9 S·226B "cl-..llo,v13009":"sum-b,v13022"
+04:33:44.767777 version@stat F·[0 1] S·226B[0B 226B] Sc·[0.00 0.00]
+04:33:49.076114 table@compaction committed F-4 S-25KiB Ke·0 D·2645 T·13.027626697s
+04:33:49.076200 db@close closing
+04:33:49.076412 db@close done T·209µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:34:12.543775 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:34:12.544078 version@stat F·[0 1] S·226B[0B 226B] Sc·[0.00 0.00]
+04:34:12.544092 db@open opening
+04:34:12.544148 journal@recovery F·1
+04:34:12.544509 journal@recovery recovering @65
+04:34:12.545647 memdb@flush created L0@68 N·26 S·341B "cl-..llo,v13036":"sum-b,d13034"
+04:34:12.546065 version@stat F·[1 1] S·567B[341B 226B] Sc·[0.25 0.00]
+04:34:12.546534 db@janitor F·9 G·5
+04:34:12.546543 db@janitor removing table-54
+04:34:12.546589 db@janitor removing table-55
+04:34:12.546630 db@janitor removing table-58
+04:34:12.546671 db@janitor removing table-61
+04:34:12.546706 db@janitor removing table-64
+04:34:12.546751 db@open done T·2.652751ms
+=============== Aug 28, 2016 (YEKT) ===============
+04:36:09.901141 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:36:09.901447 version@stat F·[1 1] S·567B[341B 226B] Sc·[0.25 0.00]
+04:36:09.901462 db@open opening
+04:36:09.901515 journal@recovery F·1
+04:36:09.902093 journal@recovery recovering @69
+04:36:09.903063 memdb@flush created L0@71 N·24 S·331B "cl-..llo,v13063":"sum-b,d13061"
+04:36:09.903530 version@stat F·[2 1] S·898B[672B 226B] Sc·[0.50 0.00]
+04:36:09.903977 db@janitor F·5 G·0
+04:36:09.904006 db@open done T·2.536553ms
+04:36:13.342223 db@close closing
+04:36:13.343320 db@close done T·1.093287ms
+=============== Aug 28, 2016 (YEKT) ===============
+04:36:42.934813 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:36:42.935212 version@stat F·[2 1] S·898B[672B 226B] Sc·[0.50 0.00]
+04:36:42.935235 db@open opening
+04:36:42.935303 journal@recovery F·1
+04:36:42.935657 journal@recovery recovering @72
+04:36:42.937321 memdb@flush created L0@74 N·32 S·391B "cl-..llo,v13108":"sum-b,d13086"
+04:36:42.937732 version@stat F·[3 1] S·1KiB[1KiB 226B] Sc·[0.75 0.00]
+04:36:42.938141 db@janitor F·6 G·0
+04:36:42.938163 db@open done T·2.918783ms
+=============== Aug 28, 2016 (YEKT) ===============
+04:36:58.524387 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:36:58.524741 version@stat F·[3 1] S·1KiB[1KiB 226B] Sc·[0.75 0.00]
+04:36:58.524757 db@open opening
+04:36:58.524812 journal@recovery F·1
+04:36:58.525203 journal@recovery recovering @75
+04:36:58.526410 memdb@flush created L0@77 N·29 S·370B "cl-..llo,v13136":"sum-b,d13119"
+04:36:58.526753 version@stat F·[4 1] S·1KiB[1KiB 226B] Sc·[1.00 0.00]
+04:36:58.527316 db@janitor F·7 G·0
+04:36:58.527336 db@open done T·2.571461ms
+04:36:58.527428 table@compaction L0·4 -> L1·1 S·1KiB Q·13140
+04:36:58.527868 table@build created L1@80 N·9 S·233B "cl-..llo,v13136":"sum-b,v13134"
+04:36:58.527907 version@stat F·[0 1] S·233B[0B 233B] Sc·[0.00 0.00]
+04:36:58.528070 table@compaction committed F-4 S-1KiB Ke·0 D·111 T·585.952µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:37:40.692467 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:37:40.692875 version@stat F·[0 1] S·233B[0B 233B] Sc·[0.00 0.00]
+04:37:40.692904 db@open opening
+04:37:40.692984 journal@recovery F·1
+04:37:40.693492 journal@recovery recovering @78
+04:37:40.694604 memdb@flush created L0@81 N·29 S·373B "cl-..llo,v13166":"sum-b,d13149"
+04:37:40.694985 version@stat F·[1 1] S·606B[373B 233B] Sc·[0.25 0.00]
+04:37:40.695437 db@janitor F·9 G·5
+04:37:40.695446 db@janitor removing table-67
+04:37:40.695491 db@janitor removing table-68
+04:37:40.695534 db@janitor removing table-71
+04:37:40.695572 db@janitor removing table-74
+04:37:40.695610 db@janitor removing table-77
+04:37:40.695676 db@open done T·2.754347ms
+=============== Aug 28, 2016 (YEKT) ===============
+04:39:55.703271 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:39:55.703619 version@stat F·[1 1] S·606B[373B 233B] Sc·[0.25 0.00]
+04:39:55.703634 db@open opening
+04:39:55.703684 journal@recovery F·1
+04:39:55.704106 journal@recovery recovering @82
+04:39:55.705204 memdb@flush created L0@84 N·25 S·334B "cl-..llo,v13181":"sum-b,d13179"
+04:39:55.705592 version@stat F·[2 1] S·940B[707B 233B] Sc·[0.50 0.00]
+04:39:55.706030 db@janitor F·5 G·0
+04:39:55.706051 db@open done T·2.409966ms
+04:39:57.739464 db@close closing
+04:39:57.739740 db@close done T·270.399µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:40:17.414733 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:40:17.415186 version@stat F·[2 1] S·940B[707B 233B] Sc·[0.50 0.00]
+04:40:17.415208 db@open opening
+04:40:17.415276 journal@recovery F·1
+04:40:17.415619 journal@recovery recovering @85
+04:40:17.416753 memdb@flush created L0@87 N·32 S·393B "cl-..llo,v13227":"sum-b,d13205"
+04:40:17.417124 version@stat F·[3 1] S·1KiB[1KiB 233B] Sc·[0.75 0.00]
+04:40:17.417539 db@janitor F·6 G·0
+04:40:17.417566 db@open done T·2.350837ms
+=============== Aug 28, 2016 (YEKT) ===============
+04:40:24.077987 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:40:24.078381 version@stat F·[3 1] S·1KiB[1KiB 233B] Sc·[0.75 0.00]
+04:40:24.078397 db@open opening
+04:40:24.078458 journal@recovery F·1
+04:40:24.078877 journal@recovery recovering @88
+04:40:24.080110 memdb@flush created L0@90 N·24 S·342B "cl-..llo,v13240":"sum-b,d13238"
+04:40:24.080623 version@stat F·[4 1] S·1KiB[1KiB 233B] Sc·[1.00 0.00]
+04:40:24.081099 db@janitor F·7 G·0
+04:40:24.081118 db@open done T·2.71505ms
+04:40:24.081229 table@compaction L0·4 -> L1·1 S·1KiB Q·13254
+04:40:24.081667 table@build created L1@93 N·9 S·231B "cl-..llo,v13240":"sum-b,v13253"
+04:40:24.081704 version@stat F·[0 1] S·231B[0B 231B] Sc·[0.00 0.00]
+04:40:24.081846 db@close closing
+04:40:24.081859 table@compaction committed F-4 S-1KiB Ke·0 D·110 T·599.725µs
+04:40:24.081984 db@close done T·136.268µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:40:57.481607 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:40:57.481915 version@stat F·[0 1] S·231B[0B 231B] Sc·[0.00 0.00]
+04:40:57.481927 db@open opening
+04:40:57.482001 journal@recovery F·1
+04:40:57.482374 journal@recovery recovering @91
+04:40:57.483114 memdb@flush created L0@94 N·32 S·393B "cl-..llo,v13285":"sum-b,d13263"
+04:40:57.483503 version@stat F·[1 1] S·624B[393B 231B] Sc·[0.25 0.00]
+04:40:57.483964 db@janitor F·9 G·5
+04:40:57.483972 db@janitor removing table-80
+04:40:57.484022 db@janitor removing table-81
+04:40:57.484065 db@janitor removing table-84
+04:40:57.484109 db@janitor removing table-87
+04:40:57.484151 db@janitor removing table-90
+04:40:57.484201 db@open done T·2.268946ms
+04:40:57.484264 db@close closing
+04:40:57.484408 db@close done T·141.094µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:40:57.484613 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:40:57.484834 version@stat F·[1 1] S·624B[393B 231B] Sc·[0.25 0.00]
+04:40:57.484849 db@open opening
+04:40:57.484915 journal@recovery F·1
+04:40:57.486981 journal@recovery recovering @95
+04:40:57.487489 memdb@flush created L0@97 N·1 S·128B "tes..lue,v13288":"tes..lue,v13288"
+04:40:57.489491 version@stat F·[2 1] S·752B[521B 231B] Sc·[0.50 0.00]
+04:40:57.489962 db@janitor F·5 G·0
+04:40:57.489979 db@open done T·5.123071ms
+04:40:57.490079 db@close closing
+04:40:57.490170 db@close done T·90.594µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:40:57.490538 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:40:57.490694 version@stat F·[2 1] S·752B[521B 231B] Sc·[0.50 0.00]
+04:40:57.490703 db@open opening
+04:40:57.490751 journal@recovery F·1
+04:40:57.491349 journal@recovery recovering @98
+04:40:57.492202 version@stat F·[2 1] S·752B[521B 231B] Sc·[0.50 0.00]
+04:40:57.492623 db@janitor F·5 G·0
+04:40:57.492638 db@open done T·1.930299ms
+04:40:57.551290 table@compaction L0·1 -> L1·1 S·624B Q·15007
+04:40:57.551744 table@build created L1@102 N·9 S·231B "cl-..llo,v13285":"sum-b,v13278"
+04:40:57.551788 version@stat F·[1 1] S·359B[128B 231B] Sc·[0.25 0.00]
+04:40:57.551991 table@compaction committed F-1 S-393B Ke·0 D·32 T·654.708µs
+04:40:57.553061 db@close closing
+04:40:57.553203 db@close done T·141.07µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:40:57.553354 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:40:57.553520 version@stat F·[1 1] S·359B[128B 231B] Sc·[0.25 0.00]
+04:40:57.553529 db@open opening
+04:40:57.553574 journal@recovery F·1
+04:40:57.553859 journal@recovery recovering @100
+04:40:57.557144 memdb@flush created L0@103 N·1718 S·15KiB "cl-..ity,v14044":"tes..lue,d13299"
+04:40:57.557661 version@stat F·[2 1] S·16KiB[15KiB 231B] Sc·[0.50 0.00]
+04:40:57.558116 db@janitor F·7 G·2
+04:40:57.558124 db@janitor removing table-93
+04:40:57.558172 db@janitor removing table-94
+04:40:57.558222 db@open done T·4.688527ms
+04:40:57.562740 db@close closing
+04:40:57.562915 db@close done T·170.684µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:41:13.098577 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:41:13.098869 version@stat F·[2 1] S·16KiB[15KiB 231B] Sc·[0.50 0.00]
+04:41:13.098891 db@open opening
+04:41:13.098940 journal@recovery F·1
+04:41:13.099435 journal@recovery recovering @104
+04:41:13.101365 memdb@flush created L0@106 N·880 S·9KiB "cl-..ity,d15009":"sum-b,v15880"
+04:41:13.101680 version@stat F·[3 1] S·26KiB[25KiB 231B] Sc·[0.75 0.00]
+04:41:13.102217 db@janitor F·6 G·0
+04:41:13.102256 db@open done T·3.34544ms
+04:41:13.102309 db@close closing
+04:41:13.102488 db@close done T·175.651µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:41:13.102704 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:41:13.102890 version@stat F·[3 1] S·26KiB[25KiB 231B] Sc·[0.75 0.00]
+04:41:13.102899 db@open opening
+04:41:13.102942 journal@recovery F·1
+04:41:13.105071 journal@recovery recovering @107
+04:41:13.105508 memdb@flush created L0@109 N·1 S·128B "tes..lue,v15890":"tes..lue,v15890"
+04:41:13.107507 version@stat F·[4 1] S·26KiB[25KiB 231B] Sc·[1.00 0.00]
+04:41:13.108005 db@janitor F·7 G·0
+04:41:13.108026 db@open done T·5.122188ms
+04:41:13.108084 table@compaction L0·4 -> L1·1 S·26KiB Q·15891
+04:41:13.108207 db@close closing
+04:41:13.108949 db@close done T·740.475µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:41:13.109327 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:41:13.109493 version@stat F·[4 1] S·26KiB[25KiB 231B] Sc·[1.00 0.00]
+04:41:13.109503 db@open opening
+04:41:13.109552 journal@recovery F·1
+04:41:13.109787 journal@recovery recovering @110
+04:41:13.110676 version@stat F·[4 1] S·26KiB[25KiB 231B] Sc·[1.00 0.00]
+04:41:13.111107 db@janitor F·7 G·0
+04:41:13.111121 db@open done T·1.612947ms
+04:41:13.111169 table@compaction L0·4 -> L1·1 S·26KiB Q·15891
+04:41:13.112640 table@build created L1@114 N·10 S·248B "cl-..llo,v15887":"tes..lue,v15890"
+04:41:13.112681 version@stat F·[0 1] S·248B[0B 248B] Sc·[0.00 0.00]
+04:41:13.112869 table@compaction committed F-4 S-25KiB Ke·0 D·2599 T·1.665996ms
+04:41:13.170071 db@close closing
+04:41:13.170275 db@close done T·202.89µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:41:13.170429 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:41:13.171457 version@stat F·[0 1] S·248B[0B 248B] Sc·[0.00 0.00]
+04:41:13.171469 db@open opening
+04:41:13.171530 journal@recovery F·1
+04:41:13.173636 journal@recovery recovering @112
+04:41:13.176857 memdb@flush created L0@115 N·1718 S·15KiB "cl-..ity,v15946":"tes..lue,d15901"
+04:41:13.177371 version@stat F·[1 1] S·16KiB[15KiB 248B] Sc·[0.25 0.00]
+04:41:13.177854 db@janitor F·9 G·5
+04:41:13.177864 db@janitor removing table-97
+04:41:13.177909 db@janitor removing table-102
+04:41:13.177952 db@janitor removing table-103
+04:41:13.177995 db@janitor removing table-106
+04:41:13.178034 db@janitor removing table-109
+04:41:13.178086 db@open done T·6.612651ms
+04:41:13.182584 db@close closing
+04:41:13.182737 db@close done T·151.907µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:41:19.379514 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:41:19.379811 version@stat F·[1 1] S·16KiB[15KiB 248B] Sc·[0.25 0.00]
+04:41:19.379824 db@open opening
+04:41:19.379894 journal@recovery F·1
+04:41:19.380331 journal@recovery recovering @116
+04:41:19.382435 memdb@flush created L0@118 N·880 S·9KiB "cl-..ity,d17611":"sum-b,v18482"
+04:41:19.382921 version@stat F·[2 1] S·25KiB[25KiB 248B] Sc·[0.50 0.00]
+04:41:19.383377 db@janitor F·5 G·0
+04:41:19.383410 db@open done T·3.569045ms
+04:41:19.383486 db@close closing
+04:41:19.383641 db@close done T·150.573µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:41:19.383791 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:41:19.383958 version@stat F·[2 1] S·25KiB[25KiB 248B] Sc·[0.50 0.00]
+04:41:19.383968 db@open opening
+04:41:19.384012 journal@recovery F·1
+04:41:19.385922 journal@recovery recovering @119
+04:41:19.386342 memdb@flush created L0@121 N·1 S·128B "tes..lue,v18492":"tes..lue,v18492"
+04:41:19.388437 version@stat F·[3 1] S·26KiB[25KiB 248B] Sc·[0.75 0.00]
+04:41:19.388907 db@janitor F·6 G·0
+04:41:19.388923 db@open done T·4.9502ms
+04:41:19.389046 db@close closing
+04:41:19.389151 db@close done T·101.562µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:41:19.389855 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:41:19.390173 version@stat F·[3 1] S·26KiB[25KiB 248B] Sc·[0.75 0.00]
+04:41:19.390184 db@open opening
+04:41:19.390236 journal@recovery F·1
+04:41:19.390849 journal@recovery recovering @122
+04:41:19.391691 version@stat F·[3 1] S·26KiB[25KiB 248B] Sc·[0.75 0.00]
+04:41:19.392157 db@janitor F·6 G·0
+04:41:19.392171 db@open done T·1.982172ms
+04:41:19.404901 table@compaction L0·3 -> L1·1 S·26KiB Q·18705
+04:41:19.406120 table@build created L1@126 N·10 S·248B "cl-..llo,v18489":"tes..lue,v18492"
+04:41:19.406185 version@stat F·[0 1] S·248B[0B 248B] Sc·[0.00 0.00]
+04:41:19.406415 table@compaction committed F-3 S-25KiB Ke·0 D·2599 T·1.476449ms
+04:41:19.452648 db@close closing
+04:41:19.452855 db@close done T·206.079µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:41:19.453032 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:41:19.453216 version@stat F·[0 1] S·248B[0B 248B] Sc·[0.00 0.00]
+04:41:19.453225 db@open opening
+04:41:19.453272 journal@recovery F·1
+04:41:19.453676 journal@recovery recovering @124
+04:41:19.456575 memdb@flush created L0@127 N·1718 S·15KiB "cl-..ity,v19332":"tes..lue,d18503"
+04:41:19.457116 version@stat F·[1 1] S·16KiB[15KiB 248B] Sc·[0.25 0.00]
+04:41:19.457598 db@janitor F·8 G·4
+04:41:19.457608 db@janitor removing table-114
+04:41:19.457654 db@janitor removing table-115
+04:41:19.457698 db@janitor removing table-118
+04:41:19.457738 db@janitor removing table-121
+04:41:19.457783 db@open done T·4.554216ms
+04:41:19.462178 db@close closing
+04:41:19.462359 db@close done T·178.061µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:44:00.023941 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:44:00.024201 version@stat F·[1 1] S·16KiB[15KiB 248B] Sc·[0.25 0.00]
+04:44:00.024214 db@open opening
+04:44:00.024277 journal@recovery F·1
+04:44:00.024875 journal@recovery recovering @128
+04:44:00.026822 memdb@flush created L0@130 N·880 S·9KiB "cl-..ity,d20213":"sum-b,v21084"
+04:44:00.027253 version@stat F·[2 1] S·25KiB[25KiB 248B] Sc·[0.50 0.00]
+04:44:00.027667 db@janitor F·5 G·0
+04:44:00.027688 db@open done T·3.468075ms
+04:44:00.027744 db@close closing
+04:44:00.027872 db@close done T·123.172µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:44:00.028057 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:44:00.028214 version@stat F·[2 1] S·25KiB[25KiB 248B] Sc·[0.50 0.00]
+04:44:00.028224 db@open opening
+04:44:00.028266 journal@recovery F·1
+04:44:00.030049 journal@recovery recovering @131
+04:44:00.030598 memdb@flush created L0@133 N·1 S·128B "tes..lue,v21094":"tes..lue,v21094"
+04:44:00.032795 version@stat F·[3 1] S·26KiB[25KiB 248B] Sc·[0.75 0.00]
+04:44:00.033295 db@janitor F·6 G·0
+04:44:00.033311 db@open done T·5.082425ms
+04:44:00.033430 db@close closing
+04:44:00.033500 db@close done T·68.411µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:44:00.033875 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:44:00.034027 version@stat F·[3 1] S·26KiB[25KiB 248B] Sc·[0.75 0.00]
+04:44:00.034036 db@open opening
+04:44:00.034086 journal@recovery F·1
+04:44:00.034740 journal@recovery recovering @134
+04:44:00.035588 version@stat F·[3 1] S·26KiB[25KiB 248B] Sc·[0.75 0.00]
+04:44:00.036017 db@janitor F·6 G·0
+04:44:00.036031 db@open done T·1.991019ms
+04:44:00.049135 table@compaction L0·3 -> L1·1 S·26KiB Q·21308
+04:44:00.050161 table@build created L1@138 N·10 S·248B "cl-..llo,v21091":"tes..lue,v21094"
+04:44:00.050208 version@stat F·[0 1] S·248B[0B 248B] Sc·[0.00 0.00]
+04:44:00.050410 table@compaction committed F-3 S-25KiB Ke·0 D·2599 T·1.225985ms
+04:44:00.093617 db@close closing
+04:44:00.093865 db@close done T·245.785µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:44:00.094129 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:44:00.094379 version@stat F·[0 1] S·248B[0B 248B] Sc·[0.00 0.00]
+04:44:00.094396 db@open opening
+04:44:00.094488 journal@recovery F·1
+04:44:00.094908 journal@recovery recovering @136
+04:44:00.098656 memdb@flush created L0@139 N·1718 S·15KiB "cl-..ity,v22802":"tes..lue,d21105"
+04:44:00.099070 version@stat F·[1 1] S·16KiB[15KiB 248B] Sc·[0.25 0.00]
+04:44:00.099493 db@janitor F·8 G·4
+04:44:00.099502 db@janitor removing table-126
+04:44:00.099553 db@janitor removing table-127
+04:44:00.099595 db@janitor removing table-130
+04:44:00.099633 db@janitor removing table-133
+04:44:00.099681 db@open done T·5.279085ms
+04:44:00.104000 db@close closing
+04:44:00.104143 db@close done T·138.627µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:44:02.401408 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:44:02.401678 version@stat F·[1 1] S·16KiB[15KiB 248B] Sc·[0.25 0.00]
+04:44:02.401690 db@open opening
+04:44:02.401740 journal@recovery F·1
+04:44:02.402249 journal@recovery recovering @140
+04:44:02.404108 memdb@flush created L0@142 N·880 S·9KiB "cl-..ity,d22815":"sum-b,v23686"
+04:44:02.404478 version@stat F·[2 1] S·25KiB[25KiB 248B] Sc·[0.50 0.00]
+04:44:02.405110 db@janitor F·5 G·0
+04:44:02.405130 db@open done T·3.434234ms
+04:44:02.405175 db@close closing
+04:44:02.405335 db@close done T·156.452µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:44:02.405453 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:44:02.405592 version@stat F·[2 1] S·25KiB[25KiB 248B] Sc·[0.50 0.00]
+04:44:02.405602 db@open opening
+04:44:02.405648 journal@recovery F·1
+04:44:02.407581 journal@recovery recovering @143
+04:44:02.408016 memdb@flush created L0@145 N·1 S·128B "tes..lue,v23696":"tes..lue,v23696"
+04:44:02.410176 version@stat F·[3 1] S·26KiB[25KiB 248B] Sc·[0.75 0.00]
+04:44:02.410586 db@janitor F·6 G·0
+04:44:02.410603 db@open done T·4.996827ms
+04:44:02.410712 db@close closing
+04:44:02.410777 db@close done T·63.927µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:44:02.411108 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:44:02.411266 version@stat F·[3 1] S·26KiB[25KiB 248B] Sc·[0.75 0.00]
+04:44:02.411275 db@open opening
+04:44:02.411323 journal@recovery F·1
+04:44:02.411989 journal@recovery recovering @146
+04:44:02.412935 version@stat F·[3 1] S·26KiB[25KiB 248B] Sc·[0.75 0.00]
+04:44:02.413369 db@janitor F·6 G·0
+04:44:02.413382 db@open done T·2.102285ms
+04:44:02.428503 table@compaction L0·3 -> L1·1 S·26KiB Q·23911
+04:44:02.429722 table@build created L1@150 N·10 S·251B "cl-..llo,v23693":"tes..lue,v23696"
+04:44:02.429854 version@stat F·[0 1] S·251B[0B 251B] Sc·[0.00 0.00]
+04:44:02.430014 table@compaction committed F-3 S-25KiB Ke·0 D·2599 T·1.45915ms
+04:44:02.469768 db@close closing
+04:44:02.469922 db@close done T·141.954µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:44:02.470043 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:44:02.470212 version@stat F·[0 1] S·251B[0B 251B] Sc·[0.00 0.00]
+04:44:02.470220 db@open opening
+04:44:02.470269 journal@recovery F·1
+04:44:02.470535 journal@recovery recovering @148
+04:44:02.473658 memdb@flush created L0@151 N·1718 S·15KiB "cl-..ity,v24540":"tes..lue,d23707"
+04:44:02.474189 version@stat F·[1 1] S·16KiB[15KiB 251B] Sc·[0.25 0.00]
+04:44:02.474667 db@janitor F·8 G·4
+04:44:02.474676 db@janitor removing table-138
+04:44:02.474721 db@janitor removing table-139
+04:44:02.474761 db@janitor removing table-142
+04:44:02.474800 db@janitor removing table-145
+04:44:02.474848 db@open done T·4.623279ms
+04:44:02.479155 db@close closing
+04:44:02.479352 db@close done T·193.891µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:46:59.062514 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:46:59.062783 version@stat F·[1 1] S·16KiB[15KiB 251B] Sc·[0.25 0.00]
+04:46:59.062808 db@open opening
+04:46:59.062875 journal@recovery F·1
+04:46:59.063301 journal@recovery recovering @152
+04:46:59.065232 memdb@flush created L0@154 N·880 S·9KiB "cl-..ity,d25417":"sum-b,v26288"
+04:46:59.065559 version@stat F·[2 1] S·25KiB[25KiB 251B] Sc·[0.50 0.00]
+04:46:59.066066 db@janitor F·5 G·0
+04:46:59.066097 db@open done T·3.264691ms
+04:46:59.066157 db@close closing
+04:46:59.066349 db@close done T·190.575µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:46:59.066526 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:46:59.066715 version@stat F·[2 1] S·25KiB[25KiB 251B] Sc·[0.50 0.00]
+04:46:59.066724 db@open opening
+04:46:59.066765 journal@recovery F·1
+04:46:59.068807 journal@recovery recovering @155
+04:46:59.069217 memdb@flush created L0@157 N·1 S·128B "tes..lue,v26298":"tes..lue,v26298"
+04:46:59.071205 version@stat F·[3 1] S·25KiB[25KiB 251B] Sc·[0.75 0.00]
+04:46:59.071753 db@janitor F·6 G·0
+04:46:59.071772 db@open done T·5.043033ms
+04:46:59.071896 db@close closing
+04:46:59.072050 db@close done T·149.383µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:46:59.072450 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:46:59.072608 version@stat F·[3 1] S·25KiB[25KiB 251B] Sc·[0.75 0.00]
+04:46:59.072617 db@open opening
+04:46:59.072664 journal@recovery F·1
+04:46:59.073335 journal@recovery recovering @158
+04:46:59.074088 version@stat F·[3 1] S·25KiB[25KiB 251B] Sc·[0.75 0.00]
+04:46:59.074542 db@janitor F·6 G·0
+04:46:59.074555 db@open done T·1.933104ms
+04:46:59.087765 table@compaction L0·3 -> L1·1 S·25KiB Q·26516
+04:46:59.088788 table@build created L1@162 N·10 S·251B "cl-..llo,v26295":"tes..lue,v26298"
+04:46:59.088836 version@stat F·[0 1] S·251B[0B 251B] Sc·[0.00 0.00]
+04:46:59.089025 table@compaction committed F-3 S-25KiB Ke·0 D·2599 T·1.225217ms
+04:46:59.133441 db@close closing
+04:46:59.133627 db@close done T·186.247µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:46:59.133766 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:46:59.133941 version@stat F·[0 1] S·251B[0B 251B] Sc·[0.00 0.00]
+04:46:59.133951 db@open opening
+04:46:59.134013 journal@recovery F·1
+04:46:59.134410 journal@recovery recovering @160
+04:46:59.137310 memdb@flush created L0@163 N·1718 S·15KiB "cl-..ity,v27274":"tes..lue,d26309"
+04:46:59.137668 version@stat F·[1 1] S·16KiB[15KiB 251B] Sc·[0.25 0.00]
+04:46:59.138270 db@janitor F·8 G·4
+04:46:59.138280 db@janitor removing table-150
+04:46:59.138323 db@janitor removing table-151
+04:46:59.138367 db@janitor removing table-154
+04:46:59.138405 db@janitor removing table-157
+04:46:59.138459 db@open done T·4.493604ms
+04:46:59.144351 db@close closing
+04:46:59.144455 db@close done T·102.876µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:47:08.814925 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:47:08.815172 version@stat F·[1 1] S·16KiB[15KiB 251B] Sc·[0.25 0.00]
+04:47:08.815188 db@open opening
+04:47:08.815241 journal@recovery F·1
+04:47:08.815600 journal@recovery recovering @164
+04:47:08.817597 memdb@flush created L0@166 N·880 S·9KiB "cl-..ity,d28019":"sum-b,v28890"
+04:47:08.817915 version@stat F·[2 1] S·25KiB[25KiB 251B] Sc·[0.50 0.00]
+04:47:08.818368 db@janitor F·5 G·0
+04:47:08.818387 db@open done T·3.193205ms
+04:47:08.818430 db@close closing
+04:47:08.818552 db@close done T·116.695µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:47:08.818706 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:47:08.818874 version@stat F·[2 1] S·25KiB[25KiB 251B] Sc·[0.50 0.00]
+04:47:08.818894 db@open opening
+04:47:08.818935 journal@recovery F·1
+04:47:08.820698 journal@recovery recovering @167
+04:47:08.821197 memdb@flush created L0@169 N·1 S·128B "tes..lue,v28900":"tes..lue,v28900"
+04:47:08.823225 version@stat F·[3 1] S·26KiB[25KiB 251B] Sc·[0.75 0.00]
+04:47:08.823715 db@janitor F·6 G·0
+04:47:08.823734 db@open done T·4.83575ms
+04:47:08.823861 db@close closing
+04:47:08.823952 db@close done T·87.804µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:47:08.824369 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:47:08.824513 version@stat F·[3 1] S·26KiB[25KiB 251B] Sc·[0.75 0.00]
+04:47:08.824522 db@open opening
+04:47:08.824574 journal@recovery F·1
+04:47:08.825384 journal@recovery recovering @170
+04:47:08.826178 version@stat F·[3 1] S·26KiB[25KiB 251B] Sc·[0.75 0.00]
+04:47:08.826612 db@janitor F·6 G·0
+04:47:08.826625 db@open done T·2.098724ms
+04:47:08.839688 table@compaction L0·3 -> L1·1 S·26KiB Q·29113
+04:47:08.840702 table@build created L1@174 N·10 S·248B "cl-..llo,v28897":"tes..lue,v28900"
+04:47:08.840746 version@stat F·[0 1] S·248B[0B 248B] Sc·[0.00 0.00]
+04:47:08.840944 table@compaction committed F-3 S-25KiB Ke·0 D·2599 T·1.221636ms
+04:47:08.884593 db@close closing
+04:47:08.884791 db@close done T·197.458µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:47:08.884982 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:47:08.885182 version@stat F·[0 1] S·248B[0B 248B] Sc·[0.00 0.00]
+04:47:08.885190 db@open opening
+04:47:08.885242 journal@recovery F·1
+04:47:08.885618 journal@recovery recovering @172
+04:47:08.888479 memdb@flush created L0@175 N·1718 S·15KiB "cl-..ity,v29656":"tes..lue,d28911"
+04:47:08.888980 version@stat F·[1 1] S·16KiB[15KiB 248B] Sc·[0.25 0.00]
+04:47:08.889442 db@janitor F·8 G·4
+04:47:08.889452 db@janitor removing table-162
+04:47:08.889502 db@janitor removing table-163
+04:47:08.889542 db@janitor removing table-166
+04:47:08.889579 db@janitor removing table-169
+04:47:08.889624 db@open done T·4.429931ms
+04:47:08.894403 db@close closing
+04:47:08.894546 db@close done T·139.555µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:50:18.914905 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:50:18.915247 version@stat F·[1 1] S·16KiB[15KiB 248B] Sc·[0.25 0.00]
+04:50:18.915263 db@open opening
+04:50:18.915347 journal@recovery F·1
+04:50:18.915800 journal@recovery recovering @176
+04:50:18.918220 memdb@flush created L0@178 N·880 S·9KiB "cl-..ity,d30621":"sum-b,v31492"
+04:50:18.918852 version@stat F·[2 1] S·25KiB[25KiB 248B] Sc·[0.50 0.00]
+04:50:18.919518 db@janitor F·5 G·0
+04:50:18.919545 db@open done T·4.268259ms
+04:50:18.921490 db@close closing
+04:50:18.922221 db@close done T·685.283µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:50:26.200127 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:50:26.200420 version@stat F·[2 1] S·25KiB[25KiB 248B] Sc·[0.50 0.00]
+04:50:26.200435 db@open opening
+04:50:26.200508 journal@recovery F·1
+04:50:26.200887 journal@recovery recovering @179
+04:50:26.201596 memdb@flush created L0@181 N·32 S·390B "cl-..llo,v31532":"sum-b,d31510"
+04:50:26.201890 version@stat F·[3 1] S·26KiB[26KiB 248B] Sc·[0.75 0.00]
+04:50:26.202379 db@janitor F·6 G·0
+04:50:26.202399 db@open done T·1.954006ms
+04:50:26.202477 db@close closing
+04:50:26.202567 db@close done T·88.626µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:50:26.202681 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:50:26.202825 version@stat F·[3 1] S·26KiB[26KiB 248B] Sc·[0.75 0.00]
+04:50:26.202834 db@open opening
+04:50:26.202882 journal@recovery F·1
+04:50:26.204734 journal@recovery recovering @182
+04:50:26.205271 memdb@flush created L0@184 N·1 S·128B "tes..lue,v31535":"tes..lue,v31535"
+04:50:26.207419 version@stat F·[4 1] S·26KiB[26KiB 248B] Sc·[1.00 0.00]
+04:50:26.207976 db@janitor F·7 G·0
+04:50:26.207997 db@open done T·5.158195ms
+04:50:26.208083 table@compaction L0·4 -> L1·1 S·26KiB Q·31536
+04:50:26.208145 db@close closing
+04:50:26.208923 db@close done T·776.426µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:50:26.209342 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:50:26.209505 version@stat F·[4 1] S·26KiB[26KiB 248B] Sc·[1.00 0.00]
+04:50:26.209515 db@open opening
+04:50:26.209562 journal@recovery F·1
+04:50:26.209816 journal@recovery recovering @185
+04:50:26.210792 version@stat F·[4 1] S·26KiB[26KiB 248B] Sc·[1.00 0.00]
+04:50:26.211196 db@janitor F·7 G·0
+04:50:26.211209 db@open done T·1.690285ms
+04:50:26.211277 table@compaction L0·4 -> L1·1 S·26KiB Q·31536
+04:50:26.212615 table@build created L1@189 N·10 S·251B "cl-..llo,v31532":"tes..lue,v31535"
+04:50:26.212656 version@stat F·[0 1] S·251B[0B 251B] Sc·[0.00 0.00]
+04:50:26.212844 table@compaction committed F-4 S-26KiB Ke·0 D·2631 T·1.521954ms
+04:50:26.268547 db@close closing
+04:50:26.268753 db@close done T·205.09µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:50:26.268879 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:50:26.274346 version@stat F·[0 1] S·251B[0B 251B] Sc·[0.00 0.00]
+04:50:26.274364 db@open opening
+04:50:26.274458 journal@recovery F·1
+04:50:26.277943 journal@recovery recovering @187
+04:50:26.282553 memdb@flush created L0@190 N·1718 S·15KiB "cl-..ity,v32261":"tes..lue,d31546"
+04:50:26.283148 version@stat F·[1 1] S·16KiB[15KiB 251B] Sc·[0.25 0.00]
+04:50:26.283711 db@janitor F·9 G·5
+04:50:26.283725 db@janitor removing table-174
+04:50:26.283809 db@janitor removing table-175
+04:50:26.283864 db@janitor removing table-178
+04:50:26.283918 db@janitor removing table-181
+04:50:26.283964 db@janitor removing table-184
+04:50:26.284018 db@open done T·9.648197ms
+04:50:26.289902 db@close closing
+04:50:26.289992 db@close done T·88.291µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:50:30.952625 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:50:30.952901 version@stat F·[1 1] S·16KiB[15KiB 251B] Sc·[0.25 0.00]
+04:50:30.952915 db@open opening
+04:50:30.952987 journal@recovery F·1
+04:50:30.953603 journal@recovery recovering @191
+04:50:30.955446 memdb@flush created L0@193 N·880 S·9KiB "cl-..ity,d33256":"sum-b,v34127"
+04:50:30.955938 version@stat F·[2 1] S·25KiB[25KiB 251B] Sc·[0.50 0.00]
+04:50:30.956373 db@janitor F·5 G·0
+04:50:30.956394 db@open done T·3.472626ms
+04:50:30.956461 db@close closing
+04:50:30.956602 db@close done T·137.175µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:50:30.956712 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:50:30.956865 version@stat F·[2 1] S·25KiB[25KiB 251B] Sc·[0.50 0.00]
+04:50:30.956875 db@open opening
+04:50:30.956920 journal@recovery F·1
+04:50:30.958864 journal@recovery recovering @194
+04:50:30.959310 memdb@flush created L0@196 N·1 S·128B "tes..lue,v34137":"tes..lue,v34137"
+04:50:30.961273 version@stat F·[3 1] S·26KiB[25KiB 251B] Sc·[0.75 0.00]
+04:50:30.961798 db@janitor F·6 G·0
+04:50:30.961819 db@open done T·4.940073ms
+04:50:30.961930 db@close closing
+04:50:30.962005 db@close done T·74.086µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:50:30.962435 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:50:30.962593 version@stat F·[3 1] S·26KiB[25KiB 251B] Sc·[0.75 0.00]
+04:50:30.962602 db@open opening
+04:50:30.962649 journal@recovery F·1
+04:50:30.963338 journal@recovery recovering @197
+04:50:30.964100 version@stat F·[3 1] S·26KiB[25KiB 251B] Sc·[0.75 0.00]
+04:50:30.964608 db@janitor F·6 G·0
+04:50:30.964621 db@open done T·2.015435ms
+04:50:30.977567 table@compaction L0·3 -> L1·1 S·26KiB Q·34350
+04:50:30.978572 table@build created L1@201 N·10 S·252B "cl-..llo,v34134":"tes..lue,v34137"
+04:50:30.978609 version@stat F·[0 1] S·252B[0B 252B] Sc·[0.00 0.00]
+04:50:30.978768 table@compaction committed F-3 S-25KiB Ke·0 D·2599 T·1.175416ms
+04:50:31.023650 db@close closing
+04:50:31.023800 db@close done T·150.122µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:50:31.023961 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:50:31.024121 version@stat F·[0 1] S·252B[0B 252B] Sc·[0.00 0.00]
+04:50:31.024130 db@open opening
+04:50:31.024180 journal@recovery F·1
+04:50:31.024536 journal@recovery recovering @199
+04:50:31.027639 memdb@flush created L0@202 N·1718 S·15KiB "cl-..ity,v35179":"tes..lue,d34148"
+04:50:31.028172 version@stat F·[1 1] S·16KiB[15KiB 252B] Sc·[0.25 0.00]
+04:50:31.028657 db@janitor F·8 G·4
+04:50:31.028668 db@janitor removing table-189
+04:50:31.028719 db@janitor removing table-190
+04:50:31.028763 db@janitor removing table-193
+04:50:31.028803 db@janitor removing table-196
+04:50:31.028853 db@open done T·4.717798ms
+04:50:31.034041 db@close closing
+04:50:31.034199 db@close done T·156.157µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:50:36.663671 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:50:36.663946 version@stat F·[1 1] S·16KiB[15KiB 252B] Sc·[0.25 0.00]
+04:50:36.663971 db@open opening
+04:50:36.664029 journal@recovery F·1
+04:50:36.664502 journal@recovery recovering @203
+04:50:36.666369 memdb@flush created L0@205 N·880 S·9KiB "cl-..ity,d35858":"sum-b,v36729"
+04:50:36.666892 version@stat F·[2 1] S·25KiB[25KiB 252B] Sc·[0.50 0.00]
+04:50:36.667359 db@janitor F·5 G·0
+04:50:36.667383 db@open done T·3.405846ms
+04:50:36.667433 db@close closing
+04:50:36.667578 db@close done T·141.299µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:50:36.667696 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:50:36.667841 version@stat F·[2 1] S·25KiB[25KiB 252B] Sc·[0.50 0.00]
+04:50:36.667851 db@open opening
+04:50:36.667897 journal@recovery F·1
+04:50:36.669855 journal@recovery recovering @206
+04:50:36.670296 memdb@flush created L0@208 N·1 S·128B "tes..lue,v36739":"tes..lue,v36739"
+04:50:36.672400 version@stat F·[3 1] S·26KiB[25KiB 252B] Sc·[0.75 0.00]
+04:50:36.672901 db@janitor F·6 G·0
+04:50:36.672920 db@open done T·5.064607ms
+04:50:36.673048 db@close closing
+04:50:36.673115 db@close done T·65.033µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:50:36.673502 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:50:36.673667 version@stat F·[3 1] S·26KiB[25KiB 252B] Sc·[0.75 0.00]
+04:50:36.673676 db@open opening
+04:50:36.673721 journal@recovery F·1
+04:50:36.674313 journal@recovery recovering @209
+04:50:36.675214 version@stat F·[3 1] S·26KiB[25KiB 252B] Sc·[0.75 0.00]
+04:50:36.675643 db@janitor F·6 G·0
+04:50:36.675667 db@open done T·1.976715ms
+04:50:36.688606 table@compaction L0·3 -> L1·1 S·26KiB Q·36952
+04:50:36.689663 table@build created L1@213 N·10 S·250B "cl-..llo,v36736":"tes..lue,v36739"
+04:50:36.689698 version@stat F·[0 1] S·250B[0B 250B] Sc·[0.00 0.00]
+04:50:36.689898 table@compaction committed F-3 S-25KiB Ke·0 D·2599 T·1.267977ms
+04:50:36.735844 db@close closing
+04:50:36.736051 db@close done T·205.87µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:50:36.736234 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:50:36.736419 version@stat F·[0 1] S·250B[0B 250B] Sc·[0.00 0.00]
+04:50:36.736427 db@open opening
+04:50:36.736474 journal@recovery F·1
+04:50:36.736780 journal@recovery recovering @211
+04:50:36.751249 memdb@flush created L0@214 N·1718 S·15KiB "cl-..ity,v38315":"tes..lue,d36750"
+04:50:36.751789 version@stat F·[1 1] S·16KiB[15KiB 250B] Sc·[0.25 0.00]
+04:50:36.752484 db@janitor F·8 G·4
+04:50:36.752498 db@janitor removing table-201
+04:50:36.752570 db@janitor removing table-202
+04:50:36.752629 db@janitor removing table-205
+04:50:36.752684 db@janitor removing table-208
+04:50:36.752753 db@open done T·16.321357ms
+04:50:36.759254 db@close closing
+04:50:36.759366 db@close done T·109.847µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:53:25.794304 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:53:25.794648 version@stat F·[1 1] S·16KiB[15KiB 250B] Sc·[0.25 0.00]
+04:53:25.794670 db@open opening
+04:53:25.794731 journal@recovery F·1
+04:53:25.795211 journal@recovery recovering @215
+04:53:25.797321 memdb@flush created L0@217 N·880 S·9KiB "cl-..ity,d38460":"sum-b,v39331"
+04:53:25.797606 version@stat F·[2 1] S·25KiB[25KiB 250B] Sc·[0.50 0.00]
+04:53:25.798151 db@janitor F·5 G·0
+04:53:25.798169 db@open done T·3.492535ms
+04:53:25.798237 db@close closing
+04:53:25.798429 db@close done T·188.969µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:53:25.798585 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:53:25.798783 version@stat F·[2 1] S·25KiB[25KiB 250B] Sc·[0.50 0.00]
+04:53:25.798793 db@open opening
+04:53:25.798845 journal@recovery F·1
+04:53:25.800736 journal@recovery recovering @218
+04:53:25.801188 memdb@flush created L0@220 N·1 S·128B "tes..lue,v39341":"tes..lue,v39341"
+04:53:25.803337 version@stat F·[3 1] S·26KiB[25KiB 250B] Sc·[0.75 0.00]
+04:53:25.803874 db@janitor F·6 G·0
+04:53:25.803894 db@open done T·5.096181ms
+04:53:25.804017 db@close closing
+04:53:25.804095 db@close done T·76.499µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:53:25.804495 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:53:25.804660 version@stat F·[3 1] S·26KiB[25KiB 250B] Sc·[0.75 0.00]
+04:53:25.804669 db@open opening
+04:53:25.804721 journal@recovery F·1
+04:53:25.805323 journal@recovery recovering @221
+04:53:25.806281 version@stat F·[3 1] S·26KiB[25KiB 250B] Sc·[0.75 0.00]
+04:53:25.806672 db@janitor F·6 G·0
+04:53:25.806684 db@open done T·2.010937ms
+04:53:25.819494 table@compaction L0·3 -> L1·1 S·26KiB Q·39551
+04:53:25.820484 table@build created L1@225 N·10 S·250B "cl-..llo,v39338":"tes..lue,v39341"
+04:53:25.820527 version@stat F·[0 1] S·250B[0B 250B] Sc·[0.00 0.00]
+04:53:25.820719 table@compaction committed F-3 S-25KiB Ke·0 D·2599 T·1.181696ms
+04:53:25.868380 db@close closing
+04:53:25.868588 db@close done T·206.385µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:53:25.868739 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:53:25.868946 version@stat F·[0 1] S·250B[0B 250B] Sc·[0.00 0.00]
+04:53:25.868960 db@open opening
+04:53:25.869035 journal@recovery F·1
+04:53:25.869596 journal@recovery recovering @223
+04:53:25.873627 memdb@flush created L0@226 N·1718 S·15KiB "cl-..ity,v40665":"tes..lue,d39352"
+04:53:25.874153 version@stat F·[1 1] S·16KiB[15KiB 250B] Sc·[0.25 0.00]
+04:53:25.874678 db@janitor F·8 G·4
+04:53:25.874689 db@janitor removing table-213
+04:53:25.874741 db@janitor removing table-214
+04:53:25.874790 db@janitor removing table-217
+04:53:25.874833 db@janitor removing table-220
+04:53:25.874885 db@open done T·5.919586ms
+04:53:25.880387 db@close closing
+04:53:25.880513 db@close done T·123.611µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:53:27.579332 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:53:27.579619 version@stat F·[1 1] S·16KiB[15KiB 250B] Sc·[0.25 0.00]
+04:53:27.579638 db@open opening
+04:53:27.579698 journal@recovery F·1
+04:53:27.580513 journal@recovery recovering @227
+04:53:27.582260 memdb@flush created L0@229 N·880 S·9KiB "cl-..ity,d41062":"sum-b,v41933"
+04:53:27.582566 version@stat F·[2 1] S·25KiB[25KiB 250B] Sc·[0.50 0.00]
+04:53:27.583094 db@janitor F·5 G·0
+04:53:27.583116 db@open done T·3.471297ms
+04:53:27.583182 db@close closing
+04:53:27.583334 db@close done T·150.222µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:53:27.583524 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:53:27.583680 version@stat F·[2 1] S·25KiB[25KiB 250B] Sc·[0.50 0.00]
+04:53:27.583689 db@open opening
+04:53:27.583738 journal@recovery F·1
+04:53:27.585582 journal@recovery recovering @230
+04:53:27.586046 memdb@flush created L0@232 N·1 S·128B "tes..lue,v41943":"tes..lue,v41943"
+04:53:27.588228 version@stat F·[3 1] S·26KiB[25KiB 250B] Sc·[0.75 0.00]
+04:53:27.588717 db@janitor F·6 G·0
+04:53:27.588731 db@open done T·5.037005ms
+04:53:27.588856 db@close closing
+04:53:27.588964 db@close done T·105.311µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:53:27.589450 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:53:27.589602 version@stat F·[3 1] S·26KiB[25KiB 250B] Sc·[0.75 0.00]
+04:53:27.589611 db@open opening
+04:53:27.589664 journal@recovery F·1
+04:53:27.590304 journal@recovery recovering @233
+04:53:27.591024 version@stat F·[3 1] S·26KiB[25KiB 250B] Sc·[0.75 0.00]
+04:53:27.591572 db@janitor F·6 G·0
+04:53:27.591585 db@open done T·1.969344ms
+04:53:27.604340 table@compaction L0·3 -> L1·1 S·26KiB Q·42156
+04:53:27.605323 table@build created L1@237 N·10 S·253B "cl-..llo,v41940":"tes..lue,v41943"
+04:53:27.605370 version@stat F·[0 1] S·253B[0B 253B] Sc·[0.00 0.00]
+04:53:27.605589 table@compaction committed F-3 S-25KiB Ke·0 D·2599 T·1.21373ms
+04:53:27.648571 db@close closing
+04:53:27.648773 db@close done T·201.434µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:53:27.648940 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:53:27.649127 version@stat F·[0 1] S·253B[0B 253B] Sc·[0.00 0.00]
+04:53:27.649136 db@open opening
+04:53:27.649186 journal@recovery F·1
+04:53:27.649497 journal@recovery recovering @235
+04:53:27.652474 memdb@flush created L0@238 N·1718 S·15KiB "cl-..ity,v43045":"tes..lue,d41954"
+04:53:27.653021 version@stat F·[1 1] S·16KiB[15KiB 253B] Sc·[0.25 0.00]
+04:53:27.653473 db@janitor F·8 G·4
+04:53:27.653483 db@janitor removing table-225
+04:53:27.653535 db@janitor removing table-226
+04:53:27.653585 db@janitor removing table-229
+04:53:27.653630 db@janitor removing table-232
+04:53:27.653699 db@open done T·4.558115ms
+04:53:27.658583 db@close closing
+04:53:27.658710 db@close done T·124.659µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:55:42.380140 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:55:42.380431 version@stat F·[1 1] S·16KiB[15KiB 253B] Sc·[0.25 0.00]
+04:55:42.380447 db@open opening
+04:55:42.380506 journal@recovery F·1
+04:55:42.381008 journal@recovery recovering @239
+04:55:42.382959 memdb@flush created L0@241 N·880 S·9KiB "cl-..ity,d43664":"sum-b,v44535"
+04:55:42.383465 version@stat F·[2 1] S·25KiB[25KiB 253B] Sc·[0.50 0.00]
+04:55:42.383893 db@janitor F·5 G·0
+04:55:42.383922 db@open done T·3.458525ms
+04:55:42.383982 db@close closing
+04:55:42.384212 db@close done T·227.859µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:55:42.384388 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:55:42.384562 version@stat F·[2 1] S·25KiB[25KiB 253B] Sc·[0.50 0.00]
+04:55:42.384571 db@open opening
+04:55:42.384614 journal@recovery F·1
+04:55:42.386547 journal@recovery recovering @242
+04:55:42.387064 memdb@flush created L0@244 N·1 S·128B "tes..lue,v44545":"tes..lue,v44545"
+04:55:42.389017 version@stat F·[3 1] S·26KiB[25KiB 253B] Sc·[0.75 0.00]
+04:55:42.389549 db@janitor F·6 G·0
+04:55:42.389571 db@open done T·4.994499ms
+04:55:42.389699 db@close closing
+04:55:42.389793 db@close done T·90.636µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:55:42.390332 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:55:42.390516 version@stat F·[3 1] S·26KiB[25KiB 253B] Sc·[0.75 0.00]
+04:55:42.390525 db@open opening
+04:55:42.390570 journal@recovery F·1
+04:55:42.391331 journal@recovery recovering @245
+04:55:42.392229 version@stat F·[3 1] S·26KiB[25KiB 253B] Sc·[0.75 0.00]
+04:55:42.392718 db@janitor F·6 G·0
+04:55:42.392732 db@open done T·2.202209ms
+04:55:42.407633 table@compaction L0·3 -> L1·1 S·26KiB Q·44760
+04:55:42.409150 table@build created L1@249 N·10 S·252B "cl-..llo,v44542":"tes..lue,v44545"
+04:55:42.409209 version@stat F·[0 1] S·252B[0B 252B] Sc·[0.00 0.00]
+04:55:42.409403 table@compaction committed F-3 S-25KiB Ke·0 D·2599 T·1.732868ms
+04:55:42.459878 db@close closing
+04:55:42.460079 db@close done T·200.547µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:55:42.460222 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:55:42.460410 version@stat F·[0 1] S·252B[0B 252B] Sc·[0.00 0.00]
+04:55:42.460421 db@open opening
+04:55:42.460479 journal@recovery F·1
+04:55:42.460815 journal@recovery recovering @247
+04:55:42.464161 memdb@flush created L0@250 N·1718 S·15KiB "cl-..ity,v45317":"tes..lue,d44556"
+04:55:42.464743 version@stat F·[1 1] S·16KiB[15KiB 252B] Sc·[0.25 0.00]
+04:55:42.465200 db@janitor F·8 G·4
+04:55:42.465211 db@janitor removing table-237
+04:55:42.465261 db@janitor removing table-238
+04:55:42.465307 db@janitor removing table-241
+04:55:42.465353 db@janitor removing table-244
+04:55:42.465405 db@open done T·4.97934ms
+04:55:42.467099 db@close closing
+04:55:42.467191 db@close done T·90.61µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:55:55.782005 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:55:55.782298 version@stat F·[1 1] S·16KiB[15KiB 252B] Sc·[0.25 0.00]
+04:55:55.782313 db@open opening
+04:55:55.782362 journal@recovery F·1
+04:55:55.782916 journal@recovery recovering @251
+04:55:55.784552 memdb@flush created L0@253 N·880 S·9KiB "cl-..ity,d46266":"sum-b,v47137"
+04:55:55.784914 version@stat F·[2 1] S·25KiB[25KiB 252B] Sc·[0.50 0.00]
+04:55:55.785459 db@janitor F·5 G·0
+04:55:55.785488 db@open done T·3.158075ms
+04:55:55.785545 db@close closing
+04:55:55.785735 db@close done T·187.113µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:55:55.785916 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:55:55.786082 version@stat F·[2 1] S·25KiB[25KiB 252B] Sc·[0.50 0.00]
+04:55:55.786091 db@open opening
+04:55:55.786134 journal@recovery F·1
+04:55:55.788113 journal@recovery recovering @254
+04:55:55.788511 memdb@flush created L0@256 N·1 S·128B "tes..lue,v47147":"tes..lue,v47147"
+04:55:55.790610 version@stat F·[3 1] S·26KiB[25KiB 252B] Sc·[0.75 0.00]
+04:55:55.791211 db@janitor F·6 G·0
+04:55:55.791235 db@open done T·5.138545ms
+04:55:55.791366 db@close closing
+04:55:55.791483 db@close done T·112.003µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:55:55.791906 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:55:55.792084 version@stat F·[3 1] S·26KiB[25KiB 252B] Sc·[0.75 0.00]
+04:55:55.792093 db@open opening
+04:55:55.792137 journal@recovery F·1
+04:55:55.792360 journal@recovery recovering @257
+04:55:55.793230 version@stat F·[3 1] S·26KiB[25KiB 252B] Sc·[0.75 0.00]
+04:55:55.793724 db@janitor F·6 G·0
+04:55:55.793736 db@open done T·1.639467ms
+04:55:55.810190 table@compaction L0·3 -> L1·1 S·26KiB Q·47360
+04:55:55.811332 table@build created L1@261 N·10 S·248B "cl-..llo,v47144":"tes..lue,v47147"
+04:55:55.811373 version@stat F·[0 1] S·248B[0B 248B] Sc·[0.00 0.00]
+04:55:55.811529 table@compaction committed F-3 S-25KiB Ke·0 D·2599 T·1.300934ms
+04:55:55.859781 db@close closing
+04:55:55.859960 db@close done T·178.233µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:55:55.860100 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:55:55.860259 version@stat F·[0 1] S·248B[0B 248B] Sc·[0.00 0.00]
+04:55:55.860269 db@open opening
+04:55:55.860326 journal@recovery F·1
+04:55:55.862384 journal@recovery recovering @259
+04:55:55.865583 memdb@flush created L0@262 N·1718 S·15KiB "cl-..ity,v48699":"tes..lue,d47158"
+04:55:55.865947 version@stat F·[1 1] S·16KiB[15KiB 248B] Sc·[0.25 0.00]
+04:55:55.866445 db@janitor F·8 G·4
+04:55:55.866459 db@janitor removing table-249
+04:55:55.866503 db@janitor removing table-250
+04:55:55.866545 db@janitor removing table-253
+04:55:55.866582 db@janitor removing table-256
+04:55:55.866628 db@open done T·6.353852ms
+04:55:55.868304 db@close closing
+04:55:55.868428 db@close done T·122.295µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:57:22.950002 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:57:22.950258 version@stat F·[1 1] S·16KiB[15KiB 248B] Sc·[0.25 0.00]
+04:57:22.950284 db@open opening
+04:57:22.950353 journal@recovery F·1
+04:57:22.950764 journal@recovery recovering @263
+04:57:22.952527 memdb@flush created L0@265 N·880 S·9KiB "cl-..ity,d48868":"sum-b,v49739"
+04:57:22.953008 version@stat F·[2 1] S·25KiB[25KiB 248B] Sc·[0.50 0.00]
+04:57:22.953460 db@janitor F·5 G·0
+04:57:22.953477 db@open done T·3.186275ms
+04:57:22.953522 db@close closing
+04:57:22.953639 db@close done T·107.934µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:57:22.953758 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:57:22.953915 version@stat F·[2 1] S·25KiB[25KiB 248B] Sc·[0.50 0.00]
+04:57:22.953925 db@open opening
+04:57:22.953972 journal@recovery F·1
+04:57:22.955958 journal@recovery recovering @266
+04:57:22.956459 memdb@flush created L0@268 N·1 S·128B "tes..lue,v49749":"tes..lue,v49749"
+04:57:22.958566 version@stat F·[3 1] S·25KiB[25KiB 248B] Sc·[0.75 0.00]
+04:57:22.959073 db@janitor F·6 G·0
+04:57:22.959092 db@open done T·5.16281ms
+04:57:22.959202 db@close closing
+04:57:22.959321 db@close done T·116.226µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:57:22.959659 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:57:22.959826 version@stat F·[3 1] S·25KiB[25KiB 248B] Sc·[0.75 0.00]
+04:57:22.959835 db@open opening
+04:57:22.959882 journal@recovery F·1
+04:57:22.960567 journal@recovery recovering @269
+04:57:22.961472 version@stat F·[3 1] S·25KiB[25KiB 248B] Sc·[0.75 0.00]
+04:57:22.961959 db@janitor F·6 G·0
+04:57:22.961982 db@open done T·2.141851ms
+04:57:22.974874 table@compaction L0·3 -> L1·1 S·25KiB Q·49962
+04:57:22.975865 table@build created L1@273 N·10 S·248B "cl-..llo,v49746":"tes..lue,v49749"
+04:57:22.975896 version@stat F·[0 1] S·248B[0B 248B] Sc·[0.00 0.00]
+04:57:22.976050 table@compaction committed F-3 S-25KiB Ke·0 D·2599 T·1.151073ms
+04:57:23.024010 db@close closing
+04:57:23.024228 db@close done T·217.173µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:57:23.024390 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:57:23.024591 version@stat F·[0 1] S·248B[0B 248B] Sc·[0.00 0.00]
+04:57:23.024601 db@open opening
+04:57:23.024651 journal@recovery F·1
+04:57:23.024968 journal@recovery recovering @271
+04:57:23.027860 memdb@flush created L0@274 N·1718 S·15KiB "cl-..ity,v51239":"tes..lue,d49760"
+04:57:23.028294 version@stat F·[1 1] S·16KiB[15KiB 248B] Sc·[0.25 0.00]
+04:57:23.028728 db@janitor F·8 G·4
+04:57:23.028741 db@janitor removing table-261
+04:57:23.028787 db@janitor removing table-262
+04:57:23.028825 db@janitor removing table-265
+04:57:23.028860 db@janitor removing table-268
+04:57:23.028914 db@open done T·4.308573ms
+04:57:23.030499 db@close closing
+04:57:23.030664 db@close done T·162.467µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:57:24.934941 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:57:24.935213 version@stat F·[1 1] S·16KiB[15KiB 248B] Sc·[0.25 0.00]
+04:57:24.935228 db@open opening
+04:57:24.935286 journal@recovery F·1
+04:57:24.935635 journal@recovery recovering @275
+04:57:24.937339 memdb@flush created L0@277 N·880 S·9KiB "cl-..ity,d51470":"sum-b,v52341"
+04:57:24.937699 version@stat F·[2 1] S·25KiB[25KiB 248B] Sc·[0.50 0.00]
+04:57:24.938253 db@janitor F·5 G·0
+04:57:24.938282 db@open done T·3.04457ms
+04:57:24.938354 db@close closing
+04:57:24.938507 db@close done T·149.536µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:57:24.938625 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:57:24.938789 version@stat F·[2 1] S·25KiB[25KiB 248B] Sc·[0.50 0.00]
+04:57:24.938799 db@open opening
+04:57:24.938858 journal@recovery F·1
+04:57:24.940940 journal@recovery recovering @278
+04:57:24.941310 memdb@flush created L0@280 N·1 S·128B "tes..lue,v52351":"tes..lue,v52351"
+04:57:24.943453 version@stat F·[3 1] S·26KiB[25KiB 248B] Sc·[0.75 0.00]
+04:57:24.943945 db@janitor F·6 G·0
+04:57:24.943964 db@open done T·5.159683ms
+04:57:24.944082 db@close closing
+04:57:24.944176 db@close done T·88.804µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:57:24.944614 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:57:24.944780 version@stat F·[3 1] S·26KiB[25KiB 248B] Sc·[0.75 0.00]
+04:57:24.944789 db@open opening
+04:57:24.944834 journal@recovery F·1
+04:57:24.945525 journal@recovery recovering @281
+04:57:24.946431 version@stat F·[3 1] S·26KiB[25KiB 248B] Sc·[0.75 0.00]
+04:57:24.946846 db@janitor F·6 G·0
+04:57:24.946859 db@open done T·2.065753ms
+04:57:24.960091 table@compaction L0·3 -> L1·1 S·26KiB Q·52564
+04:57:24.961110 table@build created L1@285 N·10 S·248B "cl-..llo,v52348":"tes..lue,v52351"
+04:57:24.961146 version@stat F·[0 1] S·248B[0B 248B] Sc·[0.00 0.00]
+04:57:24.961301 table@compaction committed F-3 S-25KiB Ke·0 D·2599 T·1.184958ms
+04:57:25.004726 db@close closing
+04:57:25.004929 db@close done T·202.776µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:57:25.005101 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:57:25.005294 version@stat F·[0 1] S·248B[0B 248B] Sc·[0.00 0.00]
+04:57:25.005303 db@open opening
+04:57:25.005356 journal@recovery F·1
+04:57:25.005662 journal@recovery recovering @283
+04:57:25.008879 memdb@flush created L0@286 N·1718 S·15KiB "cl-..ity,v52819":"tes..lue,d52362"
+04:57:25.009413 version@stat F·[1 1] S·16KiB[15KiB 248B] Sc·[0.25 0.00]
+04:57:25.009876 db@janitor F·8 G·4
+04:57:25.009887 db@janitor removing table-273
+04:57:25.009937 db@janitor removing table-274
+04:57:25.009977 db@janitor removing table-277
+04:57:25.010016 db@janitor removing table-280
+04:57:25.010063 db@open done T·4.757032ms
+04:57:25.011669 db@close closing
+04:57:25.011861 db@close done T·190.011µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:57:37.950090 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:57:37.950379 version@stat F·[1 1] S·16KiB[15KiB 248B] Sc·[0.25 0.00]
+04:57:37.950394 db@open opening
+04:57:37.950445 journal@recovery F·1
+04:57:37.951037 journal@recovery recovering @287
+04:57:37.952637 memdb@flush created L0@289 N·880 S·9KiB "cl-..ity,d54072":"sum-b,v54943"
+04:57:37.953090 version@stat F·[2 1] S·25KiB[25KiB 248B] Sc·[0.50 0.00]
+04:57:37.953532 db@janitor F·5 G·0
+04:57:37.953563 db@open done T·3.150335ms
+04:57:37.953621 db@close closing
+04:57:37.953829 db@close done T·205.617µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:57:37.954021 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:57:37.954199 version@stat F·[2 1] S·25KiB[25KiB 248B] Sc·[0.50 0.00]
+04:57:37.954208 db@open opening
+04:57:37.954252 journal@recovery F·1
+04:57:37.956090 journal@recovery recovering @290
+04:57:37.956569 memdb@flush created L0@292 N·1 S·128B "tes..lue,v54953":"tes..lue,v54953"
+04:57:37.958741 version@stat F·[3 1] S·26KiB[25KiB 248B] Sc·[0.75 0.00]
+04:57:37.959233 db@janitor F·6 G·0
+04:57:37.959251 db@open done T·5.038808ms
+04:57:37.959364 db@close closing
+04:57:37.959447 db@close done T·80.601µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:57:37.959788 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:57:37.959936 version@stat F·[3 1] S·26KiB[25KiB 248B] Sc·[0.75 0.00]
+04:57:37.959945 db@open opening
+04:57:37.960007 journal@recovery F·1
+04:57:37.960619 journal@recovery recovering @293
+04:57:37.961482 version@stat F·[3 1] S·26KiB[25KiB 248B] Sc·[0.75 0.00]
+04:57:37.961901 db@janitor F·6 G·0
+04:57:37.961914 db@open done T·1.965383ms
+04:57:37.974670 table@compaction L0·3 -> L1·1 S·26KiB Q·55166
+04:57:37.975661 table@build created L1@297 N·10 S·250B "cl-..llo,v54950":"tes..lue,v54953"
+04:57:37.975704 version@stat F·[0 1] S·250B[0B 250B] Sc·[0.00 0.00]
+04:57:37.975902 table@compaction committed F-3 S-25KiB Ke·0 D·2599 T·1.198288ms
+04:57:38.025261 db@close closing
+04:57:38.025486 db@close done T·223.558µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:57:38.025632 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:57:38.025820 version@stat F·[0 1] S·250B[0B 250B] Sc·[0.00 0.00]
+04:57:38.025832 db@open opening
+04:57:38.025943 journal@recovery F·1
+04:57:38.026301 journal@recovery recovering @295
+04:57:38.030127 memdb@flush created L0@298 N·1718 S·15KiB "cl-..ity,v55767":"tes..lue,d54964"
+04:57:38.030697 version@stat F·[1 1] S·16KiB[15KiB 250B] Sc·[0.25 0.00]
+04:57:38.031178 db@janitor F·8 G·4
+04:57:38.031189 db@janitor removing table-285
+04:57:38.031241 db@janitor removing table-286
+04:57:38.031288 db@janitor removing table-289
+04:57:38.031335 db@janitor removing table-292
+04:57:38.031386 db@open done T·5.531684ms
+04:57:38.033203 db@close closing
+04:57:38.033314 db@close done T·107.253µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:57:59.314706 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:57:59.315067 version@stat F·[1 1] S·16KiB[15KiB 250B] Sc·[0.25 0.00]
+04:57:59.315099 db@open opening
+04:57:59.315183 journal@recovery F·1
+04:57:59.315617 journal@recovery recovering @299
+04:57:59.317449 memdb@flush created L0@301 N·880 S·9KiB "cl-..ity,d56674":"sum-b,v57545"
+04:57:59.317741 version@stat F·[2 1] S·25KiB[25KiB 250B] Sc·[0.50 0.00]
+04:57:59.318212 db@janitor F·5 G·0
+04:57:59.318232 db@open done T·3.123592ms
+04:57:59.318302 db@close closing
+04:57:59.318467 db@close done T·162.317µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:57:59.318638 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:57:59.318793 version@stat F·[2 1] S·25KiB[25KiB 250B] Sc·[0.50 0.00]
+04:57:59.318801 db@open opening
+04:57:59.318847 journal@recovery F·1
+04:57:59.320884 journal@recovery recovering @302
+04:57:59.321307 memdb@flush created L0@304 N·1 S·128B "tes..lue,v57555":"tes..lue,v57555"
+04:57:59.323323 version@stat F·[3 1] S·26KiB[25KiB 250B] Sc·[0.75 0.00]
+04:57:59.323780 db@janitor F·6 G·0
+04:57:59.323798 db@open done T·4.991908ms
+04:57:59.323912 db@close closing
+04:57:59.324008 db@close done T·90.744µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:57:59.324453 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:57:59.324626 version@stat F·[3 1] S·26KiB[25KiB 250B] Sc·[0.75 0.00]
+04:57:59.324635 db@open opening
+04:57:59.324680 journal@recovery F·1
+04:57:59.325214 journal@recovery recovering @305
+04:57:59.326054 version@stat F·[3 1] S·26KiB[25KiB 250B] Sc·[0.75 0.00]
+04:57:59.326471 db@janitor F·6 G·0
+04:57:59.326484 db@open done T·1.844703ms
+04:57:59.339639 table@compaction L0·3 -> L1·1 S·26KiB Q·57770
+04:57:59.340693 table@build created L1@309 N·10 S·254B "cl-..llo,v57552":"tes..lue,v57555"
+04:57:59.340749 version@stat F·[0 1] S·254B[0B 254B] Sc·[0.00 0.00]
+04:57:59.340956 table@compaction committed F-3 S-25KiB Ke·0 D·2599 T·1.278427ms
+04:57:59.383776 db@close closing
+04:57:59.383982 db@close done T·205.78µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:57:59.384192 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:57:59.384376 version@stat F·[0 1] S·254B[0B 254B] Sc·[0.00 0.00]
+04:57:59.384385 db@open opening
+04:57:59.384432 journal@recovery F·1
+04:57:59.384846 journal@recovery recovering @307
+04:57:59.387823 memdb@flush created L0@310 N·1718 S·15KiB "cl-..ity,v58385":"tes..lue,d57566"
+04:57:59.388258 version@stat F·[1 1] S·16KiB[15KiB 254B] Sc·[0.25 0.00]
+04:57:59.388664 db@janitor F·8 G·4
+04:57:59.388683 db@janitor removing table-297
+04:57:59.388745 db@janitor removing table-298
+04:57:59.388807 db@janitor removing table-301
+04:57:59.388882 db@janitor removing table-304
+04:57:59.388942 db@open done T·4.552695ms
+04:57:59.390534 db@close closing
+04:57:59.390673 db@close done T·136.751µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:58:04.934567 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:58:04.934849 version@stat F·[1 1] S·16KiB[15KiB 254B] Sc·[0.25 0.00]
+04:58:04.934864 db@open opening
+04:58:04.934961 journal@recovery F·1
+04:58:04.935483 journal@recovery recovering @311
+04:58:04.937107 memdb@flush created L0@313 N·880 S·9KiB "cl-..ity,d59276":"sum-b,v60147"
+04:58:04.937429 version@stat F·[2 1] S·25KiB[25KiB 254B] Sc·[0.50 0.00]
+04:58:04.937915 db@janitor F·5 G·0
+04:58:04.937935 db@open done T·3.054049ms
+04:58:04.937979 db@close closing
+04:58:04.938175 db@close done T·193.384µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:58:04.938348 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:58:04.938525 version@stat F·[2 1] S·25KiB[25KiB 254B] Sc·[0.50 0.00]
+04:58:04.938534 db@open opening
+04:58:04.938575 journal@recovery F·1
+04:58:04.940408 journal@recovery recovering @314
+04:58:04.940932 memdb@flush created L0@316 N·1 S·128B "tes..lue,v60157":"tes..lue,v60157"
+04:58:04.943205 version@stat F·[3 1] S·26KiB[25KiB 254B] Sc·[0.75 0.00]
+04:58:04.943653 db@janitor F·6 G·0
+04:58:04.943669 db@open done T·5.129959ms
+04:58:04.943785 db@close closing
+04:58:04.943928 db@close done T·141.384µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:58:04.944366 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:58:04.944558 version@stat F·[3 1] S·26KiB[25KiB 254B] Sc·[0.75 0.00]
+04:58:04.944567 db@open opening
+04:58:04.944619 journal@recovery F·1
+04:58:04.945485 journal@recovery recovering @317
+04:58:04.946170 version@stat F·[3 1] S·26KiB[25KiB 254B] Sc·[0.75 0.00]
+04:58:04.946744 db@janitor F·6 G·0
+04:58:04.946765 db@open done T·2.193013ms
+04:58:04.959963 table@compaction L0·3 -> L1·1 S·26KiB Q·60370
+04:58:04.960996 table@build created L1@321 N·10 S·250B "cl-..llo,v60154":"tes..lue,v60157"
+04:58:04.961035 version@stat F·[0 1] S·250B[0B 250B] Sc·[0.00 0.00]
+04:58:04.961186 table@compaction committed F-3 S-25KiB Ke·0 D·2599 T·1.190145ms
+04:58:05.004369 db@close closing
+04:58:05.004568 db@close done T·199.041µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:58:05.004721 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:58:05.004975 version@stat F·[0 1] S·250B[0B 250B] Sc·[0.00 0.00]
+04:58:05.004986 db@open opening
+04:58:05.005046 journal@recovery F·1
+04:58:05.005265 journal@recovery recovering @319
+04:58:05.008456 memdb@flush created L0@322 N·1718 S·15KiB "cl-..ity,v61649":"tes..lue,d60168"
+04:58:05.008908 version@stat F·[1 1] S·16KiB[15KiB 250B] Sc·[0.25 0.00]
+04:58:05.009325 db@janitor F·8 G·4
+04:58:05.009338 db@janitor removing table-309
+04:58:05.009381 db@janitor removing table-310
+04:58:05.009424 db@janitor removing table-313
+04:58:05.009459 db@janitor removing table-316
+04:58:05.009504 db@open done T·4.512982ms
+04:58:05.011028 db@close closing
+04:58:05.011168 db@close done T·136.846µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:58:06.681485 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:58:06.681770 version@stat F·[1 1] S·16KiB[15KiB 250B] Sc·[0.25 0.00]
+04:58:06.681785 db@open opening
+04:58:06.681833 journal@recovery F·1
+04:58:06.682199 journal@recovery recovering @323
+04:58:06.683772 memdb@flush created L0@325 N·880 S·9KiB "cl-..ity,d61878":"sum-b,v62749"
+04:58:06.684155 version@stat F·[2 1] S·25KiB[25KiB 250B] Sc·[0.50 0.00]
+04:58:06.684729 db@janitor F·5 G·0
+04:58:06.684770 db@open done T·2.968893ms
+04:58:06.684828 db@close closing
+04:58:06.684972 db@close done T·141.229µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:58:06.685095 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:58:06.685284 version@stat F·[2 1] S·25KiB[25KiB 250B] Sc·[0.50 0.00]
+04:58:06.685293 db@open opening
+04:58:06.685333 journal@recovery F·1
+04:58:06.687218 journal@recovery recovering @326
+04:58:06.687700 memdb@flush created L0@328 N·1 S·128B "tes..lue,v62759":"tes..lue,v62759"
+04:58:06.689639 version@stat F·[3 1] S·26KiB[25KiB 250B] Sc·[0.75 0.00]
+04:58:06.690146 db@janitor F·6 G·0
+04:58:06.690164 db@open done T·4.867249ms
+04:58:06.690272 db@close closing
+04:58:06.690387 db@close done T·101.745µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:58:06.690790 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:58:06.690988 version@stat F·[3 1] S·26KiB[25KiB 250B] Sc·[0.75 0.00]
+04:58:06.690999 db@open opening
+04:58:06.691049 journal@recovery F·1
+04:58:06.691855 journal@recovery recovering @329
+04:58:06.692670 version@stat F·[3 1] S·26KiB[25KiB 250B] Sc·[0.75 0.00]
+04:58:06.693118 db@janitor F·6 G·0
+04:58:06.693131 db@open done T·2.128587ms
+04:58:06.705824 table@compaction L0·3 -> L1·1 S·26KiB Q·62972
+04:58:06.706811 table@build created L1@333 N·10 S·250B "cl-..llo,v62756":"tes..lue,v62759"
+04:58:06.706855 version@stat F·[0 1] S·250B[0B 250B] Sc·[0.00 0.00]
+04:58:06.707046 table@compaction committed F-3 S-25KiB Ke·0 D·2599 T·1.188454ms
+04:58:06.752216 db@close closing
+04:58:06.752420 db@close done T·203.641µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:58:06.752623 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:58:06.752809 version@stat F·[0 1] S·250B[0B 250B] Sc·[0.00 0.00]
+04:58:06.752818 db@open opening
+04:58:06.752865 journal@recovery F·1
+04:58:06.753217 journal@recovery recovering @331
+04:58:06.756285 memdb@flush created L0@334 N·1718 S·15KiB "cl-..ity,v63547":"tes..lue,d62770"
+04:58:06.756708 version@stat F·[1 1] S·16KiB[15KiB 250B] Sc·[0.25 0.00]
+04:58:06.757141 db@janitor F·8 G·4
+04:58:06.757155 db@janitor removing table-321
+04:58:06.757203 db@janitor removing table-322
+04:58:06.757240 db@janitor removing table-325
+04:58:06.757278 db@janitor removing table-328
+04:58:06.757329 db@open done T·4.507717ms
+04:58:06.758852 db@close closing
+04:58:06.758974 db@close done T·120.106µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:59:58.365231 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:59:58.365510 version@stat F·[1 1] S·16KiB[15KiB 250B] Sc·[0.25 0.00]
+04:59:58.365523 db@open opening
+04:59:58.365583 journal@recovery F·1
+04:59:58.365968 journal@recovery recovering @335
+04:59:58.367557 memdb@flush created L0@337 N·880 S·9KiB "cl-..ity,d64480":"sum-b,v65351"
+04:59:58.367888 version@stat F·[2 1] S·25KiB[25KiB 250B] Sc·[0.50 0.00]
+04:59:58.368354 db@janitor F·5 G·0
+04:59:58.368377 db@open done T·2.845622ms
+04:59:58.368437 db@close closing
+04:59:58.368577 db@close done T·138.519µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:59:58.368671 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:59:58.368822 version@stat F·[2 1] S·25KiB[25KiB 250B] Sc·[0.50 0.00]
+04:59:58.368830 db@open opening
+04:59:58.368873 journal@recovery F·1
+04:59:58.370795 journal@recovery recovering @338
+04:59:58.371222 memdb@flush created L0@340 N·1 S·128B "tes..lue,v65361":"tes..lue,v65361"
+04:59:58.373380 version@stat F·[3 1] S·25KiB[25KiB 250B] Sc·[0.75 0.00]
+04:59:58.373865 db@janitor F·6 G·0
+04:59:58.373885 db@open done T·5.050732ms
+04:59:58.374003 db@close closing
+04:59:58.374085 db@close done T·80.497µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:59:58.374388 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:59:58.374534 version@stat F·[3 1] S·25KiB[25KiB 250B] Sc·[0.75 0.00]
+04:59:58.374543 db@open opening
+04:59:58.374600 journal@recovery F·1
+04:59:58.375174 journal@recovery recovering @341
+04:59:58.375950 version@stat F·[3 1] S·25KiB[25KiB 250B] Sc·[0.75 0.00]
+04:59:58.376357 db@janitor F·6 G·0
+04:59:58.376371 db@open done T·1.823775ms
+04:59:58.389184 table@compaction L0·3 -> L1·1 S·25KiB Q·65574
+04:59:58.390158 table@build created L1@345 N·10 S·252B "cl-..llo,v65358":"tes..lue,v65361"
+04:59:58.390205 version@stat F·[0 1] S·252B[0B 252B] Sc·[0.00 0.00]
+04:59:58.390401 table@compaction committed F-3 S-25KiB Ke·0 D·2599 T·1.181526ms
+04:59:58.440517 db@close closing
+04:59:58.440710 db@close done T·191.976µs
+=============== Aug 28, 2016 (YEKT) ===============
+04:59:58.440820 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:59:58.440971 version@stat F·[0 1] S·252B[0B 252B] Sc·[0.00 0.00]
+04:59:58.440980 db@open opening
+04:59:58.441031 journal@recovery F·1
+04:59:58.441410 journal@recovery recovering @343
+04:59:58.444405 memdb@flush created L0@346 N·1718 S·15KiB "cl-..ity,v66099":"tes..lue,d65372"
+04:59:58.444843 version@stat F·[1 1] S·16KiB[15KiB 252B] Sc·[0.25 0.00]
+04:59:58.445286 db@janitor F·8 G·4
+04:59:58.445300 db@janitor removing table-333
+04:59:58.445348 db@janitor removing table-334
+04:59:58.445392 db@janitor removing table-337
+04:59:58.445426 db@janitor removing table-340
+04:59:58.445485 db@open done T·4.500512ms
+04:59:58.446980 db@close closing
+04:59:58.447164 db@close done T·182.012µs
+=============== Aug 28, 2016 (YEKT) ===============
+05:01:46.811429 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+05:01:46.811707 version@stat F·[1 1] S·16KiB[15KiB 252B] Sc·[0.25 0.00]
+05:01:46.811722 db@open opening
+05:01:46.811770 journal@recovery F·1
+05:01:46.812376 journal@recovery recovering @347
+05:01:46.814102 memdb@flush created L0@349 N·880 S·9KiB "cl-..ity,d67082":"sum-b,v67953"
+05:01:46.814430 version@stat F·[2 1] S·25KiB[25KiB 252B] Sc·[0.50 0.00]
+05:01:46.815008 db@janitor F·5 G·0
+05:01:46.815042 db@open done T·3.312058ms
+05:01:46.815891 db@close closing
+05:01:46.816097 db@close done T·204.362µs
+=============== Aug 28, 2016 (YEKT) ===============
+05:01:46.816336 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+05:01:46.816516 version@stat F·[2 1] S·25KiB[25KiB 252B] Sc·[0.50 0.00]
+05:01:46.816525 db@open opening
+05:01:46.816570 journal@recovery F·1
+05:01:46.818371 journal@recovery recovering @350
+05:01:46.818895 memdb@flush created L0@352 N·10 S·246B "cl-..llo,d67963":"tes..lue,v67972"
+05:01:46.820600 version@stat F·[3 1] S·26KiB[25KiB 252B] Sc·[0.75 0.00]
+05:01:46.821069 db@janitor F·6 G·0
+05:01:46.821086 db@open done T·4.556621ms
+05:01:46.821182 db@close closing
+05:01:46.821266 db@close done T·83.31µs
+=============== Aug 28, 2016 (YEKT) ===============
+05:01:46.821656 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+05:01:46.821804 version@stat F·[3 1] S·26KiB[25KiB 252B] Sc·[0.75 0.00]
+05:01:46.821813 db@open opening
+05:01:46.821868 journal@recovery F·1
+05:01:46.822080 journal@recovery recovering @353
+05:01:46.823009 version@stat F·[3 1] S·26KiB[25KiB 252B] Sc·[0.75 0.00]
+05:01:46.823585 db@janitor F·6 G·0
+05:01:46.823598 db@open done T·1.780864ms
+05:01:46.836597 table@compaction L0·3 -> L1·1 S·26KiB Q·68176
+05:01:46.837597 table@build created L1@357 N·1 S·129B "tes..lue,v67972":"tes..lue,v67972"
+05:01:46.837646 version@stat F·[0 1] S·129B[0B 129B] Sc·[0.00 0.00]
+05:01:46.837826 table@compaction committed F-3 S-26KiB Ke·0 D·2617 T·1.176088ms
+05:01:46.877326 db@close closing
+05:01:46.877451 db@close done T·124.553µs
+=============== Aug 28, 2016 (YEKT) ===============
+05:01:46.877605 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+05:01:46.877811 version@stat F·[0 1] S·129B[0B 129B] Sc·[0.00 0.00]
+05:01:46.877820 db@open opening
+05:01:46.877868 journal@recovery F·1
+05:01:46.879687 journal@recovery recovering @355
+05:01:46.882706 memdb@flush created L0@358 N·1709 S·15KiB "cl-..ity,v69235":"tes..lue,d67974"
+05:01:46.883725 version@stat F·[1 1] S·15KiB[15KiB 129B] Sc·[0.25 0.00]
+05:01:46.884203 db@janitor F·8 G·4
+05:01:46.884213 db@janitor removing table-345
+05:01:46.884263 db@janitor removing table-346
+05:01:46.884309 db@janitor removing table-349
+05:01:46.884353 db@janitor removing table-352
+05:01:46.884413 db@open done T·6.588595ms
+05:01:46.886040 db@close closing
+05:01:46.886132 db@close done T·91.083µs

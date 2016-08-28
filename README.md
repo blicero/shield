@@ -3,7 +3,10 @@ Shield is a bayesian text classifier with flexible tokenizer and backend store s
 Currently implemented:
 
 - Redis backend
+- LevelDB backend
 - English tokenizer
+- Russian tokenizer
+- Russian porterstemmer
 
 ## Example
 

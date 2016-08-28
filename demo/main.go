@@ -1,27 +1,71 @@
 package main
 
-import (     
+import (   
+    "fmt"  
     "github.com/legion-zver/shield"
 )
 
-func main() {    
-     sh := shield.New(
+func main() {
+    store := shield.NewLevelDBStore("../db")    
+    sh := shield.New(
         shield.NewRussianTokenizer(),
-        shield.NewLevelDBStore("../db"),
+        store,
     )
-    sh.Reset()
+    sh.Reset()    
+	defer sh.Destroy()
+	
+	sh.Learn("a", "hello")
+	sh.Learn("a", "sunshine")
+	sh.Learn("a", "tree")
+	sh.Learn("a", "water")
+	sh.Learn("b", "iamb!")    
+	sh.Forget("a", "hello tree")
+	sh.Forget("a", "hello")
+	
+	m, err := store.ClassWordCounts("a", []string{
+		"hello",
+		"sunshine",
+		"tree",
+		"water",
+	})
+	if err != nil {
+		fmt.Println(err)
+        return
+	}
+	if r := fmt.Sprintf("%v", m); r != "map[hello:0 sunshine:1 tree:0 water:1]" {
+		fmt.Println(r)
+        return
+	}
 
-    sh.Learn("good", "sunshine drugs love sex lobster sloth")
-    sh.Learn("bad", "fear death horror government zombie god")
+	m2, err := store.ClassWordCounts("b", []string{
+		"hello",
+		"iamb!",
+	})
+	if err != nil {
+		fmt.Println(err)
+        return
+	}
+	if r := fmt.Sprintf("%v", m2); r != "map[hello:0 iamb!:0]" {
+		fmt.Println(r)        
+        return
+	}
 
-    c, _ := sh.Classify("sloths are so cute i love them")
-    if c != "good" {
-        panic(c)
-    }
-
-    c, _ = sh.Classify("i fear god and love the government")
-    if c != "bad" {
-        panic(c)
-    }
+	wc, err := store.TotalClassWordCounts()
+	if err != nil {
+		fmt.Println(err)
+        return
+	}
+	if x := len(wc); x != 2 {
+		fmt.Println(x)
+        return
+	}
+	if x := wc["a"]; x != 2 {
+		fmt.Println(x)
+        return
+	}
+	if x := wc["b"]; x != 1 {
+		fmt.Println(x)
+        return
+	}    
 }
 

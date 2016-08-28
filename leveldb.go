@@ -97,8 +97,8 @@ func (ls *LevelDBStore) IncrementClassWordCounts(m map[string]map[string]int64) 
     for class, words := range m {
 		for word, d := range words {
             key := "cl-"+class+"-"+word           			
-            appendIntValue(db, key, d)        
-            appendIntValue(db, "sum-"+class, d)            
+            d = appendIntValue(db, key, d, true)
+            appendIntValue(db, "sum-"+class, d, true)
         }
     }    
     return
@@ -132,12 +132,12 @@ func (ls *LevelDBStore) Reset() (err error) {
 	if err != nil {
 		return
 	}
-    //batch := new(leveldb.Batch)            
+    batch := new(leveldb.Batch)            
 	iter := db.NewIterator(nil, nil)
 	for iter.Next() {
-        db.Delete(iter.Key(), nil)
+        batch.Delete(iter.Key())
     }
-    //db.Write(batch, nil)
+    db.Write(batch, nil)
 	return
 }
 
@@ -153,25 +153,28 @@ func (ls *LevelDBStore) Close() error {
 	return nil
 }
 
-func appendIntValue(db *leveldb.DB, key string, d int64) {
+func appendIntValue(db *leveldb.DB, key string, d int64, minusTest bool) int64 {
     if db != nil {        
         val, e := db.Get([]byte(key), nil)
         if e != nil {     
             if d > 0 {           
-                db.Put([]byte(key), []byte(strconv.FormatInt(d,10)), nil)
+                db.Put([]byte(key), []byte(strconv.FormatInt(d,10)), nil)                
             }
         } else {
             v, e := strconv.ParseInt(string(val),10,64)
             if e != nil {
                 if d > 0 {
-                    db.Put([]byte(key), []byte(strconv.FormatInt(d,10)), nil)
+                    db.Put([]byte(key), []byte(strconv.FormatInt(d,10)), nil)                    
                 }
-            } else {                
-                if (v+d) < 0 {
-                    d = v * -1
+            } else {
+                if minusTest {             
+                    if (v+d) < 0 {
+                        d = v * -1
+                    }
                 }
-                db.Put([]byte(key), []byte(strconv.FormatInt(d,10)), nil)
+                db.Put([]byte(key), []byte(strconv.FormatInt(v+d,10)), nil)                
             }
         }
     }
+    return d
 }

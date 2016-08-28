@@ -1,0 +1,3 @@
+[deps]
+github.com/garyburd/redigo/redis = 
+github.com/syndtr/goleveldb/leveldb = 

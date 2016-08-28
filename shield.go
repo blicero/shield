@@ -8,9 +8,10 @@ import (
 const defaultProb float64 = 1e-11
 
 type shield struct {
-	tokenizer 	    Tokenizer
-	store     	    Store
-	minCounterWord  int64	
+	tokenizer 	    	Tokenizer
+	store     	    	Store
+	useMinCounterWord	bool
+	minCounterWord  	int64	
 }
 
 // New - new Shield
@@ -18,7 +19,7 @@ func New(t Tokenizer, s Store) Shield {
 	return &shield{
 		tokenizer: t,
 		store:     s,
-		minCounterWord: 1,		
+		useMinCounterWord: false,				
 	}
 }
 
@@ -71,9 +72,11 @@ func (sh *shield) bulkIncrement(sets []Set, sign int64) (err error) {
 	}
 	for class, words := range m {
 		// Sitnan patch: Do not consider words if count is less than sh.minCounterWord
-		for word, d := range words {
-			if d < sh.minCounterWord {
-				delete(m[class], word)
+		if sh.useMinCounterWord {
+			for word, d := range words {
+				if d < sh.minCounterWord {
+					delete(m[class], word)
+				}
 			}
 		}
 		if err = sh.store.AddClass(class); err != nil {

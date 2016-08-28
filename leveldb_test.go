@@ -1,12 +1,13 @@
 package shield
 
-import (
-    "fmt"
+import (    
     "testing"
 )
 
 func TestLevelDB(t *testing.T) {
     store := NewLevelDBStore("./db")
+    store.Reset()
+    
     defer store.Close()
 
     db, err := store.(*LevelDBStore).conn()
@@ -21,7 +22,9 @@ func TestLevelDB(t *testing.T) {
     if err != nil {
         t.Fatal(err)
     }
-    fmt.Println(string(val))      
+    if string(val) != "2024" {
+        t.Fatal(val)
+    }
 }
 
 
@@ -37,5 +40,7 @@ func TestLevelDBLast(t *testing.T) {
     if err != nil {
         t.Fatal(err)
     }
-    fmt.Println(string(val))    
+    if string(val) != "2024" {
+        t.Fatal(val)
+    } 
 }

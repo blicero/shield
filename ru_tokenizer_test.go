@@ -9,5 +9,8 @@ func TestRusTokenize(t *testing.T) {
 	tokenizer := NewRussianTokenizer()
 	text := "красивая красивее"
 	m := tokenizer.Tokenize(text)
-	fmt.Println(fmt.Sprintf("%v", m))
+	x := fmt.Sprintf("%v", m)
+	if x != `map[красив:2]` {
+		t.Fatal(x)
+	}
 }
