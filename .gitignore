@@ -1,3 +1,9 @@
+# Time-stamp: <2022-10-11 22:03:17 krylon>
 .DS_Store
 *.bak
 *.ldb
+*~
+CURRENT
+LOG
+MANIFEST-*
+*.log
