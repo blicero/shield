@@ -1690,3 +1690,58 @@
 18:25:46.883879 db@open done T·18.936441ms
 18:25:46.886862 db@close closing
 18:25:46.886952 db@close done T·87.539µs
+=============== Oct 11, 2022 (CEST) ===============
+21:43:14.605039 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:43:14.605474 version@stat F·[1 1] S·15KiB[15KiB 129B] Sc·[0.25 0.00]
+21:43:14.605488 db@open opening
+21:43:14.605548 journal@recovery F·1
+21:43:14.606303 journal@recovery recovering @371
+21:43:14.612690 memdb@flush created L0@373 N·880 S·9KiB "cl-..ity,d72286":"sum-b,v73157"
+21:43:14.613198 version@stat F·[2 1] S·25KiB[25KiB 129B] Sc·[0.50 0.00]
+21:43:14.619417 db@janitor F·5 G·0
+21:43:14.619452 db@open done T·13.954716ms
+21:43:14.620725 db@close closing
+21:43:14.620824 db@close done T·95.754µs
+=============== Oct 11, 2022 (CEST) ===============
+21:43:14.621007 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:43:14.621229 version@stat F·[2 1] S·25KiB[25KiB 129B] Sc·[0.50 0.00]
+21:43:14.621241 db@open opening
+21:43:14.621316 journal@recovery F·1
+21:43:14.625698 journal@recovery recovering @374
+21:43:14.627915 memdb@flush created L0@376 N·10 S·247B "cl-..llo,d73167":"tes..lue,v73176"
+21:43:14.628104 version@stat F·[3 1] S·25KiB[25KiB 129B] Sc·[0.75 0.00]
+21:43:14.633109 db@janitor F·6 G·0
+21:43:14.633282 db@open done T·12.031877ms
+21:43:14.633493 db@close closing
+21:43:14.633569 db@close done T·74.788µs
+=============== Oct 11, 2022 (CEST) ===============
+21:43:14.633905 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:43:14.634153 version@stat F·[3 1] S·25KiB[25KiB 129B] Sc·[0.75 0.00]
+21:43:14.634172 db@open opening
+21:43:14.634257 journal@recovery F·1
+21:43:14.634631 journal@recovery recovering @377
+21:43:14.636603 version@stat F·[3 1] S·25KiB[25KiB 129B] Sc·[0.75 0.00]
+21:43:14.641799 db@janitor F·6 G·0
+21:43:14.641831 db@open done T·7.651222ms
+21:43:14.658560 table@compaction L0·3 -> L1·1 S·25KiB Q·73390
+21:43:14.661033 table@build created L1@381 N·1 S·129B "tes..lue,v73176":"tes..lue,v73176"
+21:43:14.661095 version@stat F·[0 1] S·129B[0B 129B] Sc·[0.00 0.00]
+21:43:14.662769 table@compaction committed F-3 S-25KiB Ke·0 D·2599 T·4.167673ms
+21:43:14.690733 db@close closing
+21:43:14.690871 db@close done T·136.609µs
+=============== Oct 11, 2022 (CEST) ===============
+21:43:14.691026 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:43:14.691224 version@stat F·[0 1] S·129B[0B 129B] Sc·[0.00 0.00]
+21:43:14.691236 db@open opening
+21:43:14.691295 journal@recovery F·1
+21:43:14.697508 journal@recovery recovering @379
+21:43:14.703221 memdb@flush created L0@382 N·1709 S·15KiB "cl-..ity,v74053":"tes..lue,d73178"
+21:43:14.707742 version@stat F·[1 1] S·15KiB[15KiB 129B] Sc·[0.25 0.00]
+21:43:14.713179 db@janitor F·8 G·4
+21:43:14.713192 db@janitor removing table-369
+21:43:14.713253 db@janitor removing table-370
+21:43:14.713621 db@janitor removing table-373
+21:43:14.713690 db@janitor removing table-376
+21:43:14.713764 db@open done T·22.522991ms
+21:43:14.715555 db@close closing
+21:43:14.715661 db@close done T·103.114µs
